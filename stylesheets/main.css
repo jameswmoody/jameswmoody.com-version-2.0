@@ -1,9 +1,5 @@
 /* Fonts */
 @import url("https://fonts.googleapis.com/css?family=Muli");
-body {
-  height: 2000px;
-  background-color: #1A1A1A; }
-
 /* Navbar */
 .navbar-default {
   background-color: transparent;
@@ -41,4 +37,8 @@ body {
 .border-five:hover {
   border-bottom: solid #27304D; }
 
-/*# sourceMappingURL=style.css.map */
+body {
+  height: 2000px;
+  background-color: #1A1A1A; }
+
+/*# sourceMappingURL=main.css.map */
