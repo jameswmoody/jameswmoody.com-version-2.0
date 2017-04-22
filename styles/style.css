@@ -1,45 +1,44 @@
 /* Fonts */
-@import url('https://fonts.googleapis.com/css?family=Muli');
-
-
+@import url("https://fonts.googleapis.com/css?family=Muli");
 body {
   height: 2000px;
-  background-color: #1A1A1A;
-}
+  background-color: #1A1A1A; }
+
 /* Navbar */
-.navbar-nav>li>a {
-  height: 50px;
-  padding-bottom: 5px;
-}
 .navbar-default {
   background-color: transparent;
   transition: 0.5s;
   font-family: 'Muli', sans-serif;
   font-size: 11px;
-  border: none;
-}
+  border: none; }
+
 .navbar-default .navbar-brand,
 .navbar-default .navbar-brand:hover,
-.navbar-default .navbar-nav>li>a,
-.navbar-default .navbar-nav>li>a:hover {
+.navbar-default .navbar-nav > li > a,
+.navbar-default .navbar-nav > li > a:hover {
   color: #fff;
-  letter-spacing: 1px;
-}
+  letter-spacing: 1px; }
+
 .navbar-brand {
-  padding-top: 15px;
-}
-.border-red:hover  {
-  border-bottom: solid #FE2712;
-}
-.border-orange:hover  {
-  border-bottom: solid #D8832B;
-}
-.border-green:hover  {
-  border-bottom: solid #66B032;
-}
-.border-blue:hover  {
-  border-bottom: solid #0247FE;
-}
-.border-purple:hover  {
-  border-bottom: solid #8601AF;
-}
+  padding-top: 15px; }
+
+.navbar-nav > li > a {
+  height: 50px;
+  padding-bottom: 5px; }
+
+.border-one:hover {
+  border-bottom: solid #E56E2C; }
+
+.border-two:hover {
+  border-bottom: solid #EBD695; }
+
+.border-three:hover {
+  border-bottom: solid #C2DDBC; }
+
+.border-four:hover {
+  border-bottom: solid #3285A7; }
+
+.border-five:hover {
+  border-bottom: solid #27304D; }
+
+/*# sourceMappingURL=style.css.map */

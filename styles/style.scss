@@ -1,0 +1,16 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css?family=Muli');
+
+// Colors
+$border-one-color: #E56E2C;
+$border-two-color: #EBD695;
+$border-three-color: #C2DDBC;
+$border-four-color: #3285A7;
+$border-five-color: #27304D;
+
+body {
+  height: 2000px;
+  background-color: #1A1A1A;
+}
+
+@import 'nav';
