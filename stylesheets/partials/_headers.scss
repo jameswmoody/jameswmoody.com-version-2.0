@@ -36,6 +36,14 @@ cite {
   font-size: 5em;
 }
 
+/* Header Fonts */
+h1 {
+  font-family: $Roboto-Mono;
+  font-size: 40px;
+  margin-bottom: 25px;
+  color: #6E6F73;
+}
+
 /* Parallax */
 .parallax {
   height: 100vh;
