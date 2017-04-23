@@ -4,3 +4,17 @@
 
 $Muli: 'Muli', sans-serif;
 $Roboto-Mono: 'Roboto Mono', monospace;
+$Helvecta: 'Helvecta', sans-serif;
+
+h1 {
+  font-family: $Roboto-Mono;
+  font-size: 40px;
+  margin-bottom: 25px;
+  color: #6E6F73;
+}
+
+p {
+  font-family: $Helvecta;
+  font-size: 16px;
+  color: #6E6F73;
+}
