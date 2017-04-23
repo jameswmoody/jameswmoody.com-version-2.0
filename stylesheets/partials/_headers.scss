@@ -1,0 +1,45 @@
+/* Headers */
+
+/* Home Header */
+.header-img {
+  background: url("http://jameswmoody.com/images/jwm1.jpg") no-repeat center center;
+}
+.header-tag {
+  position: block;
+  vertical-align: middle;
+  padding-top: 42vh;
+  text-shadow: $very-dark-grey 0 1px 1px;
+  background: transparent;
+  text-align: center;
+  color: $white;
+  font-family: $Roboto-Mono;
+  font-size: 20px;
+  margin: 15px;
+}
+cite {
+  float: right;
+  color: $white;
+  text-shadow: $very-dark-grey 0 1px 1px;
+  font-family: $Muli;
+}
+
+/* WebDev Header */
+
+/* Voiceover Header */
+
+/* Travel Header */
+
+/* Parallax */
+.parallax {
+  height: 100vh;
+  width: 100%;
+  @include prefix(background-size, cover, webkit ms moz o);
+  background-attachment: fixed;
+}
+
+/* Disable Parallax on Mobile */
+@media screen and (max-width: 800px){
+  .parallax  {
+  background-attachment: scroll;
+  }
+}

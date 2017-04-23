@@ -1,3 +1,6 @@
+// Mixins
+@import 'base/mixins';
+
 // Modules and Variables
 @import 'modules/colors';
 
@@ -5,6 +8,7 @@
 @import "partials/reset";
 @import 'partials/typography';
 @import 'partials/nav';
+@import 'partials/headers';
 
 
 body {
