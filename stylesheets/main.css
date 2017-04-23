@@ -5,6 +5,7 @@
 */
 @import url("https://fonts.googleapis.com/css?family=Muli");
 @import url("https://fonts.googleapis.com/css?family=Roboto+Mono");
+@import url("https://fonts.googleapis.com/css?family=Raleway:300");
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -47,17 +48,6 @@ table {
   border-spacing: 0; }
 
 /* Fonts */
-h1 {
-  font-family: "Roboto Mono", monospace;
-  font-size: 40px;
-  margin-bottom: 25px;
-  color: #6E6F73; }
-
-p {
-  font-family: "Helvecta", sans-serif;
-  font-size: 16px;
-  color: #6E6F73; }
-
 /* Navbar */
 .navbar-default {
   background-color: transparent;
@@ -129,6 +119,13 @@ cite {
   font-family: "Roboto Mono", monospace;
   font-size: 5em; }
 
+/* Header Fonts */
+h1 {
+  font-family: "Roboto Mono", monospace;
+  font-size: 40px;
+  margin-bottom: 25px;
+  color: #6E6F73; }
+
 /* Parallax */
 .parallax {
   height: 100vh;
@@ -153,6 +150,11 @@ cite {
   padding-top: 50px;
   padding-bottom: 50px; }
 
+p {
+  font-family: "Raleway", sans-serif;
+  font-size: 16px;
+  color: #6E6F73; }
+
 footer {
   background-color: #1A1A1A;
   width: 100%;
@@ -167,6 +169,7 @@ footer {
   opacity: 0.4; }
 
 .copyright {
+  font-family: "Muli", sans-serif;
   font-size: 11px; }
 
 i {
