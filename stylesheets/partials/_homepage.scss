@@ -1,0 +1,55 @@
+// Bragsheet
+.bragsheet {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 50px;
+}
+.logos {
+  width: 100px;
+}
+.braintree {
+  padding-top: 50px;
+}
+.cumulus {
+  padding-top: 25px;
+}
+.loop {
+  padding-top: 30px;
+}
+.espn {
+  padding-top: 70px;
+}
+.colum {
+  padding-top: 70px;
+}
+.wkqx {
+  padding-top: 30px;
+}
+
+// Email Form
+
+label {
+  padding-bottom: 5px;
+}
+.form-control {
+  border: solid 2px $light-grey;
+  border-radius: 0;
+  box-shadow: none;
+  font-family: $Roboto-Mono;
+  font-size: 14px;
+}
+.btn-success {
+  color: $success;
+  background-color: $very-light-grey;
+  border: solid 4px $success;
+  border-radius: 0;
+  font-family: $Roboto-Mono;
+  margin: 0 auto;
+  width: 200px;
+  transition: 0.2s;
+  &:hover {
+    background-color: $success;
+    border: solid 4px $success;
+  }
+}

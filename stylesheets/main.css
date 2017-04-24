@@ -5,7 +5,7 @@
 */
 @import url("https://fonts.googleapis.com/css?family=Muli");
 @import url("https://fonts.googleapis.com/css?family=Roboto+Mono");
-@import url("https://fonts.googleapis.com/css?family=Raleway:300");
+@import url("https://fonts.googleapis.com/css?family=Nunito+Sans:300,400");
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -54,7 +54,8 @@ table {
   transition: 0.5s;
   font-family: 'Muli', sans-serif;
   font-size: 11px;
-  border: none; }
+  border: none;
+  border-bottom-color: #6E6F73; }
 
 .navbar-default .navbar-brand,
 .navbar-default .navbar-brand:hover,
@@ -99,7 +100,7 @@ table {
   text-align: center;
   color: #fff;
   font-family: "Roboto Mono", monospace;
-  font-size: 20px;
+  font-size: 30px;
   margin: 15px; }
 
 cite {
@@ -150,10 +151,66 @@ h1 {
   padding-top: 50px;
   padding-bottom: 50px; }
 
-p {
-  font-family: "Raleway", sans-serif;
-  font-size: 16px;
+h3 {
+  font-family: "Nunito Sans", sans-serif;
   color: #6E6F73; }
+
+p {
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 20px;
+  font-weight: 300;
+  color: #6E6F73;
+  line-height: 34px; }
+
+.bragsheet {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 50px; }
+
+.logos {
+  width: 100px; }
+
+.braintree {
+  padding-top: 50px; }
+
+.cumulus {
+  padding-top: 25px; }
+
+.loop {
+  padding-top: 30px; }
+
+.espn {
+  padding-top: 70px; }
+
+.colum {
+  padding-top: 70px; }
+
+.wkqx {
+  padding-top: 30px; }
+
+label {
+  padding-bottom: 5px; }
+
+.form-control {
+  border: solid 2px #CBCBCB;
+  border-radius: 0;
+  box-shadow: none;
+  font-family: "Roboto Mono", monospace;
+  font-size: 14px; }
+
+.btn-success {
+  color: #5cb85c;
+  background-color: #ECECEC;
+  border: solid 4px #5cb85c;
+  border-radius: 0;
+  font-family: "Roboto Mono", monospace;
+  margin: 0 auto;
+  width: 200px;
+  transition: 0.2s; }
+  .btn-success:hover {
+    background-color: #5cb85c;
+    border: solid 4px #5cb85c; }
 
 footer {
   background-color: #1A1A1A;
@@ -161,6 +218,8 @@ footer {
   padding-top: 5px;
   padding-bottom: 10px;
   font-size: 15px; }
+  footer p {
+    line-height: 10px; }
 
 .social {
   height: 25px;
@@ -178,9 +237,5 @@ i {
 .row {
   margin-right: 0;
   margin-left: 0; }
-
-body {
-  height: 2000px;
-  background-color: #1A1A1A; }
 
 /*# sourceMappingURL=main.css.map */

@@ -10,13 +10,8 @@
 @import 'partials/nav';
 @import 'partials/headers';
 @import 'partials/content';
+@import 'partials/homepage';
 @import 'partials/footer';
 
 // Vendors
 @import 'vendor/overrides';
-
-
-body {
-  height: 2000px;
-  background-color: #1A1A1A;
-}

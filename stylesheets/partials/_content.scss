@@ -8,8 +8,14 @@
   padding-top: 50px;
   padding-bottom: 50px;
 }
+h3 {
+  font-family: $Nunito-Sans;
+  color: $font-color;
+}
 p {
-  font-family: $Raleway;
-  font-size: 16px;
-  color: #6E6F73;
+  font-family: $Nunito-Sans;
+  font-size: 20px;
+  font-weight: 300;
+  color: $font-color;
+  line-height: 34px;
 }
