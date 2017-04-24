@@ -3,7 +3,10 @@
   text-align: center;
 }
 .webdev-img {
-  background: url('http://jameswmoody.com/images/webdev.jpg') no-repeat center center;
+  background: url(http://jameswmoody.com/images/webdev.jpg)  no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
 }
 .transition {
   @include prefix(transform, scale(1.2), webkit ms moz o);
