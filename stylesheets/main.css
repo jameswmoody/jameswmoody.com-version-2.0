@@ -212,6 +212,52 @@ label {
     background-color: #5cb85c;
     border: solid 4px #5cb85c; }
 
+.portfolio {
+  vertical-align: middle;
+  text-align: center; }
+
+.webdev-img {
+  background: url("http://jameswmoody.com/images/webdev.jpg") no-repeat center center; }
+
+.transition {
+  -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  -moz-transform: scale(1.2);
+  -o-transform: scale(1.2); }
+
+.thumbnail:hover .portfolio-img {
+  -webkit-filter: grayscale(100%) contrast(20%);
+  -ms-filter: grayscale(100%) contrast(20%);
+  -moz-filter: grayscale(100%) contrast(20%);
+  -o-filter: grayscale(100%) contrast(20%);
+  -webkit-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out; }
+
+.thumbnail {
+  height: 250px;
+  width: 250px;
+  margin: 15px;
+  display: inline-block;
+  -webkit-transition: all 0.2s ease-in-out;
+  -ms-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out; }
+
+span.text-content {
+  padding: 10px;
+  position: absolute;
+  top: 80px;
+  left: 0;
+  color: #fff;
+  opacity: 0; }
+  span.text-content p {
+    color: #fff; }
+
+.thumbnail:hover span.text-content {
+  opacity: 1; }
+
 footer {
   background-color: #1A1A1A;
   width: 100%;

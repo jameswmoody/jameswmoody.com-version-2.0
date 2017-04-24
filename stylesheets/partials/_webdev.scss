@@ -1,0 +1,38 @@
+.portfolio {
+  vertical-align: middle;
+  text-align: center;
+}
+.webdev-img {
+  background: url('http://jameswmoody.com/images/webdev.jpg') no-repeat center center;
+}
+.transition {
+  @include prefix(transform, scale(1.2), webkit ms moz o);
+}
+.thumbnail:hover .portfolio-img {
+  @include prefix(filter, grayscale(100%) contrast(20%), webkit ms moz o);
+  @include prefix(transition,  all .3s ease-in-out, webkit ms moz o);
+}
+.thumbnail {
+  height: 250px;
+  width: 250px;
+  margin: 15px;
+  display: inline-block;
+  @include prefix(transition, all .2s ease-in-out, webkit ms moz o);
+}
+span.text-content {
+  padding: 10px;
+  position: absolute;
+  top: 80px;
+  left: 0;
+  color: $white;
+  opacity: 0;
+  p {
+       color: $white;
+    }
+}
+.thumbnail:hover span.text-content {
+  opacity: 1;
+}
+// span.text-content>p {
+//   font-family: $heading-font;
+// }
