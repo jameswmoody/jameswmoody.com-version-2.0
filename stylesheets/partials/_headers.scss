@@ -35,6 +35,13 @@ cite {
   font-family: $Roboto-Mono;
   font-size: 5em;
 }
+/* Change headline font size on Mobile */
+@media screen and (max-width: 800px){
+  .headline  {
+  font-size: 3em;
+  }
+}
+
 
 /* Header Fonts */
 h1 {

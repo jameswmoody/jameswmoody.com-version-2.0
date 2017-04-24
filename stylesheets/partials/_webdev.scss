@@ -10,9 +10,6 @@
   -moz-background-size: cover;
   background-size: cover;
 }
-.transition {
-  @include prefix(transform, scale(1.2), webkit ms moz o);
-}
 .thumbnail:hover .portfolio-img {
   @include prefix(filter, grayscale(100%) contrast(20%), webkit ms moz o);
   @include prefix(transition,  all .3s ease-in-out, webkit ms moz o);
@@ -26,6 +23,9 @@
   padding: 0;
   display: inline-block;
   @include prefix(transition, all .2s ease-in-out, webkit ms moz o);
+}
+.project-header {
+  color: $white;
 }
 span.text-content {
   padding: 10px;
@@ -41,6 +41,3 @@ span.text-content {
 .thumbnail:hover span.text-content {
   opacity: 1;
 }
-// span.text-content>p {
-//   font-family: $heading-font;
-// }

@@ -120,6 +120,10 @@ cite {
   font-family: "Roboto Mono", monospace;
   font-size: 5em; }
 
+/* Change headline font size on Mobile */
+@media screen and (max-width: 800px) {
+  .headline {
+    font-size: 3em; } }
 /* Header Fonts */
 h1 {
   font-family: "Roboto Mono", monospace;
@@ -251,6 +255,9 @@ label {
   -ms-transition: all 0.2s ease-in-out;
   -moz-transition: all 0.2s ease-in-out;
   -o-transition: all 0.2s ease-in-out; }
+
+.project-header {
+  color: #fff; }
 
 span.text-content {
   padding: 10px;
