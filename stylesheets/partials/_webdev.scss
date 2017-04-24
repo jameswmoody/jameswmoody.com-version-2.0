@@ -1,6 +1,8 @@
 .portfolio {
   vertical-align: middle;
   text-align: center;
+  padding: 0;
+  margin-bottom: -2px;
 }
 .webdev-img {
   background: url(http://jameswmoody.com/images/webdev.jpg)  no-repeat center center fixed;
@@ -16,9 +18,12 @@
   @include prefix(transition,  all .3s ease-in-out, webkit ms moz o);
 }
 .thumbnail {
-  height: 250px;
-  width: 250px;
-  margin: 15px;
+  // height: 250px;
+  width: 100%;
+  border-radius: 0;
+  border: none;
+  margin: 0;
+  padding: 0;
   display: inline-block;
   @include prefix(transition, all .2s ease-in-out, webkit ms moz o);
 }

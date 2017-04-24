@@ -214,7 +214,9 @@ label {
 
 .portfolio {
   vertical-align: middle;
-  text-align: center; }
+  text-align: center;
+  padding: 0;
+  margin-bottom: -2px; }
 
 .webdev-img {
   background: url(http://jameswmoody.com/images/webdev.jpg) no-repeat center center fixed;
@@ -239,9 +241,11 @@ label {
   -o-transition: all 0.3s ease-in-out; }
 
 .thumbnail {
-  height: 250px;
-  width: 250px;
-  margin: 15px;
+  width: 100%;
+  border-radius: 0;
+  border: none;
+  margin: 0;
+  padding: 0;
   display: inline-block;
   -webkit-transition: all 0.2s ease-in-out;
   -ms-transition: all 0.2s ease-in-out;
