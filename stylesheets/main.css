@@ -120,6 +120,10 @@ cite {
   font-family: "Roboto Mono", monospace;
   font-size: 5em; }
 
+/* Change headline font size on Mobile */
+@media screen and (max-width: 800px) {
+  .headline {
+    font-size: 3em; } }
 /* Header Fonts */
 h1 {
   font-family: "Roboto Mono", monospace;
@@ -211,6 +215,62 @@ label {
   .btn-success:hover {
     background-color: #5cb85c;
     border: solid 4px #5cb85c; }
+
+.portfolio {
+  vertical-align: middle;
+  text-align: center;
+  padding: 0;
+  margin-bottom: -2px; }
+
+.webdev-img {
+  background: url(http://jameswmoody.com/images/webdev.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover; }
+
+.transition {
+  -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  -moz-transform: scale(1.2);
+  -o-transform: scale(1.2); }
+
+.thumbnail:hover .portfolio-img {
+  -webkit-filter: grayscale(100%) contrast(20%);
+  -ms-filter: grayscale(100%) contrast(20%);
+  -moz-filter: grayscale(100%) contrast(20%);
+  -o-filter: grayscale(100%) contrast(20%);
+  -webkit-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out; }
+
+.thumbnail {
+  width: 100%;
+  border-radius: 0;
+  border: none;
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+  -webkit-transition: all 0.2s ease-in-out;
+  -ms-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out; }
+
+.project-header {
+  color: #fff; }
+
+span.text-content {
+  padding: 10px;
+  position: absolute;
+  top: 80px;
+  left: 0;
+  color: #fff;
+  opacity: 0; }
+  span.text-content p {
+    color: #fff; }
+
+.thumbnail:hover span.text-content {
+  opacity: 1; }
 
 footer {
   background-color: #1A1A1A;
