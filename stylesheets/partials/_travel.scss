@@ -11,6 +11,8 @@
 .travel-cell {
   padding: 0;
   margin-bottom: -2px;
+  border-top: solid black 1px;
+  border-right: solid black 1px;
 }
 .travel-thumbnail, .intl-travel-thumbnail {
   margin: 0;
@@ -24,28 +26,28 @@
 
 
 
-.gallery {
-  margin: auto;
-  width: 100%;
-  padding-bottom: 50px;
-}
-.gallery-thumbnail {
-  height: 100px;
-  border-radius: 5px;
-  margin: 10px;
-  box-shadow: 10px 10px 50px $black;
-}
-.rotate {
-  @include prefix(transform, rotate(90deg), webkit ms moz o);
-}
-
-@media screen and (max-width: 700px){
-  .intl-travel-thumbnail  {
-  width: 300px;
-  }
-}
-@media screen and (max-width: 325px){
-  .travel-thumbnail, .intl-travel-thumbnail  {
-  width: 250px;
-  }
-}
+// .gallery {
+//   margin: auto;
+//   width: 100%;
+//   padding-bottom: 50px;
+// }
+// .gallery-thumbnail {
+//   height: 100px;
+//   border-radius: 5px;
+//   margin: 10px;
+//   box-shadow: 10px 10px 50px $black;
+// }
+// .rotate {
+//   @include prefix(transform, rotate(90deg), webkit ms moz o);
+// }
+//
+// @media screen and (max-width: 700px){
+//   .intl-travel-thumbnail  {
+//   width: 300px;
+//   }
+// }
+// @media screen and (max-width: 325px){
+//   .travel-thumbnail, .intl-travel-thumbnail  {
+//   width: 250px;
+//   }
+// }
