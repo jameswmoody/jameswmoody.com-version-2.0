@@ -72,7 +72,7 @@ table {
   padding-bottom: 5px; }
 
 .border-one:hover {
-  border-bottom: solid #E56E2C; }
+  border-bottom: solid #B98D76; }
 
 .border-two:hover {
   border-bottom: solid #EBD695; }
@@ -228,12 +228,6 @@ label {
   -moz-background-size: cover;
   background-size: cover; }
 
-.transition {
-  -webkit-transform: scale(1.2);
-  -ms-transform: scale(1.2);
-  -moz-transform: scale(1.2);
-  -o-transform: scale(1.2); }
-
 .thumbnail:hover .portfolio-img {
   -webkit-filter: grayscale(100%) contrast(20%);
   -ms-filter: grayscale(100%) contrast(20%);
@@ -271,6 +265,103 @@ span.text-content {
 
 .thumbnail:hover span.text-content {
   opacity: 1; }
+
+.voice-img {
+  background: url("http://jameswmoody.com/images/voice.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover; }
+
+#player-header {
+  color: #1A1A1A;
+  font-size: 1.2em;
+  padding: 14px 0 12px;
+  margin: 0; }
+
+#player-header em {
+  font-style: normal;
+  color: #999; }
+
+#wrapper {
+  width: 460px;
+  margin: 5px auto; }
+
+a {
+  color: #888;
+  text-decoration: none; }
+
+ol {
+  padding: 0;
+  margin: 0;
+  list-style: decimal-leading-zero inside;
+  color: #ccc;
+  width: 460px;
+  border-top: 1px solid #ccc;
+  font-size: 0.9em; }
+
+ol li {
+  position: relative;
+  margin: 0;
+  padding: 9px 2px 10px;
+  border-bottom: 1px solid #ccc;
+  cursor: pointer; }
+
+ol li a {
+  display: block;
+  text-indent: -3.3ex;
+  padding: 0 0 0 20px; }
+
+li.playing {
+  color: #aaa;
+  text-shadow: 1px 1px 0px rgba(255, 255, 255, 0.3); }
+
+li.playing a {
+  color: #000; }
+
+li.playing:before {
+  width: 14px;
+  height: 14px;
+  padding: 3px;
+  line-height: 14px;
+  margin: 0;
+  position: absolute;
+  left: -24px;
+  top: 9px;
+  color: #000;
+  font-size: 13px;
+  text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.2); }
+
+@media screen and (max-width: 800px) {
+  #wrapper {
+    width: 340px; }
+
+  .audiojs {
+    width: 340px; }
+
+  ol {
+    width: 340px; } }
+@media screen and (max-width: 325px) {
+  #wrapper {
+    width: 275px; }
+
+  .audiojs {
+    width: 40px; }
+
+  ol {
+    width: 275px; } }
+.audiojs .play, .audiojs .loading, .audiojs .error, .audiojs .pause {
+  background-image: url(../../javascript/audiojs/player-graphics.gif);
+  -webkit-background-size: 30px 120px;
+  -ms-background-size: 30px 120px;
+  -moz-background-size: 30px 120px;
+  -o-background-size: 30px 120px; }
+
+.audiojs .play-pause {
+  width: 40px; }
+
+.player {
+  padding-left: 0;
+  padding-right: 0; }
 
 footer {
   background-color: #1A1A1A;
