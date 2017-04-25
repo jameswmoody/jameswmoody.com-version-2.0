@@ -86,18 +86,22 @@
 
   <div class="row">
     <div class="col-md-6 travel-cell">
-      <a href="http://jameswmoody.com/travel/det"><img src="http://placehold.it/500x200" class="travel-thumbnail"></a>
+      <h1 class="city-name">Detroit</h1>
+      <a href="http://jameswmoody.com/travel/det"><img src="../images/travel-imgs/det/det-main.jpg" class="travel-thumbnail"></a>
     </div>
     <div class="col-md-6 travel-cell">
-      <a href="http://jameswmoody.com/travel/chi"><img src="http://placehold.it/500x200" class="travel-thumbnail"></a>
+      <h1 class="city-name">Chicago</h1>
+      <a href="http://jameswmoody.com/travel/chi"><img src="../images/travel-imgs/chi/chi-main.jpg" class="travel-thumbnail"></a>
     </div>
   </div>
   <div class="row">
     <div class="col-md-6 travel-cell">
-      <a href="http://jameswmoody.com/travel/lv"><img src="http://placehold.it/500x200" class="travel-thumbnail"></a>
+      <h1 class="city-name">New York City</h1>
+      <a href="http://jameswmoody.com/travel/lv"><img src="../images/travel-imgs/nyc/nyc-main.jpg" class="travel-thumbnail"></a>
     </div>
     <div class="col-md-6 travel-cell">
-      <a href="http://jameswmoody.com/travel/dc"><img src="http://placehold.it/500x200" class="travel-thumbnail"></a>
+      <h1 class="city-name">San Francisco</h1>
+      <a href="http://jameswmoody.com/travel/dc"><img src="../images/travel-imgs/sf/sf-main.jpg" class="travel-thumbnail"></a>
     </div>
   </div>
   </div>
@@ -113,18 +117,21 @@
   <div class="container-wide">
     <div class="row">
       <div class="col-md-12 travel-cell">
-        <a href="http://jameswmoody.com/travel/kor"><img src="http://placehold.it/500x200" class="intl-travel-thumbnail"></a>
+        <h1 class="country-name">Korea</h1>
+        <a href="http://jameswmoody.com/travel/kor"><img src="../images/travel-imgs/kor/kor-main.jpg" class="travel-thumbnail"></a>
         <br>
       </div>
     </div>
     <div class="row">
       <div class="col-md-12 travel-cell">
-        <a href="http://jameswmoody.com/travel/jpn"><img src="http://placehold.it/500x200" class="intl-travel-thumbnail"></a>
+        <h1 class="country-name">Japan</h1>
+        <a href="http://jameswmoody.com/travel/jpn"><img src="../images/travel-imgs/jpn/jpn-main.jpg" class="travel-thumbnail"></a>
       </div>
     </div>
     <div class="row">
       <div class="col-md-12 travel-cell">
-        <a href="http://jameswmoody.com/travel/mex"><img src="http://placehold.it/500x200" class="intl-travel-thumbnail"></a>
+        <h1 class="country-name">Mexico</h1>
+        <a href="http://jameswmoody.com/travel/mex"><img src="../images/travel-imgs/mex/mex-main.jpg" class="travel-thumbnail"></a>
       </div>
     </div>
   </div>
@@ -151,6 +158,18 @@
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+  <script type="text/javascript">
+  $(document).ready(function(){
+      $('.travel-thumbnail').hover(function() {
+          $(this).closest(".travel-thumbnail").addClass('blurred');
+          $(this).closest(".city-name").fadeOut();
+      }, function() {
+          $(this).closest(".travel-thumbnail").removeClass('blurred');
+      });
+  });
+
+
+  </script>
 </body>
 
 </html>

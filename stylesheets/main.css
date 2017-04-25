@@ -376,17 +376,32 @@ li.playing:before {
 .travel-cell {
   padding: 0;
   margin-bottom: -2px;
-  border-top: solid black 1px;
-  border-right: solid black 1px; }
+  background-color: #444; }
 
 .travel-thumbnail, .intl-travel-thumbnail {
-  margin: 0; }
-
-.travel-thumbnail {
+  margin: 0;
   width: 100%; }
 
-.intl-travel-thumbnail {
-  width: 100%; }
+.city-name, .country-name {
+  text-align: center;
+  position: absolute;
+  top: 40%;
+  width: 100%;
+  color: #fff;
+  text-shadow: #1A1A1A 0 1px 1px;
+  z-index: 1; }
+
+.city-name {
+  font-size: 4em; }
+
+.country-name {
+  font-size: 7em; }
+
+.blurred {
+  -webkit-filter: blur(4.5px);
+  /* Safari 6.0 - 9.0 */
+  filter: blur(4.5px);
+  transition: 0.3s; }
 
 footer {
   background-color: #1A1A1A;
