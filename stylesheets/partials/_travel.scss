@@ -28,15 +28,25 @@
 }
 .city-name {
   font-size: 4em;
+  display: none;
 }
 .country-name {
   font-size: 7em;
 }
-.blurred {
-  -webkit-filter: blur(4.5px); /* Safari 6.0 - 9.0 */
-  filter: blur(4.5px);
+.travel-cell:hover .travel-thumbnail {
+  -webkit-filter: blur(3px); /* Safari 6.0 - 9.0 */
+  filter: blur(3px);
   transition: 0.3s;
-}
+ }
+ .travel-cell:hover .intl-travel-thumbnail {
+   -webkit-filter: blur(4.5px); /* Safari 6.0 - 9.0 */
+   filter: blur(4.5px);
+   transition: 0.3s;
+  }
+ .travel-cell:hover .city-name {
+   display: block;
+   transition: display 0.3s ease-in;
+ }
 
 // .gallery {
 //   margin: auto;

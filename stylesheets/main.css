@@ -392,16 +392,27 @@ li.playing:before {
   z-index: 1; }
 
 .city-name {
-  font-size: 4em; }
+  font-size: 4em;
+  display: none; }
 
 .country-name {
   font-size: 7em; }
 
-.blurred {
+.travel-cell:hover .travel-thumbnail {
+  -webkit-filter: blur(3px);
+  /* Safari 6.0 - 9.0 */
+  filter: blur(3px);
+  transition: 0.3s; }
+
+.travel-cell:hover .intl-travel-thumbnail {
   -webkit-filter: blur(4.5px);
   /* Safari 6.0 - 9.0 */
   filter: blur(4.5px);
   transition: 0.3s; }
+
+.travel-cell:hover .city-name {
+  display: block;
+  transition: display 0.3s ease-in; }
 
 footer {
   background-color: #1A1A1A;
