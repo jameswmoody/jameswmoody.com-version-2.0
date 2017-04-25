@@ -363,6 +363,52 @@ li.playing:before {
   padding-left: 0;
   padding-right: 0; }
 
+.travel-img {
+  background: url("http://jameswmoody.com/images/travel.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover; }
+
+#map {
+  padding-left: 0;
+  padding-right: 0; }
+
+.travel-cell {
+  padding: 0;
+  margin-bottom: -2px; }
+
+.travel-thumbnail, .intl-travel-thumbnail {
+  margin: 0; }
+
+.travel-thumbnail {
+  width: 100%; }
+
+.intl-travel-thumbnail {
+  width: 100%; }
+
+.gallery {
+  margin: auto;
+  width: 100%;
+  padding-bottom: 50px; }
+
+.gallery-thumbnail {
+  height: 100px;
+  border-radius: 5px;
+  margin: 10px;
+  box-shadow: 10px 10px 50px #000; }
+
+.rotate {
+  -webkit-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -o-transform: rotate(90deg); }
+
+@media screen and (max-width: 700px) {
+  .intl-travel-thumbnail {
+    width: 300px; } }
+@media screen and (max-width: 325px) {
+  .travel-thumbnail, .intl-travel-thumbnail {
+    width: 250px; } }
 footer {
   background-color: #1A1A1A;
   width: 100%;
