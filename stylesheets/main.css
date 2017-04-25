@@ -128,7 +128,6 @@ cite {
 h1 {
   font-family: "Roboto Mono", monospace;
   font-size: 40px;
-  margin-bottom: 25px;
   color: #6E6F73; }
 
 /* Parallax */
@@ -157,7 +156,8 @@ h1 {
 
 h3 {
   font-family: "Nunito Sans", sans-serif;
-  color: #6E6F73; }
+  color: #6E6F73;
+  padding-top: 25px; }
 
 p {
   font-family: "Nunito Sans", sans-serif;
@@ -165,6 +165,9 @@ p {
   font-weight: 300;
   color: #6E6F73;
   line-height: 34px; }
+
+.lightwidget-widget {
+  padding-top: 25px; }
 
 .bragsheet {
   display: block;
@@ -192,6 +195,9 @@ p {
 
 .wkqx {
   padding-top: 30px; }
+
+.contact-header {
+  padding-bottom: 25px; }
 
 label {
   padding-bottom: 5px; }
@@ -380,7 +386,8 @@ li.playing:before {
 
 .travel-thumbnail, .intl-travel-thumbnail {
   margin: 0;
-  width: 100%; }
+  width: 100%;
+  transition: filter 0.2s ease-in-out; }
 
 .city-name, .country-name {
   text-align: center;
@@ -393,26 +400,31 @@ li.playing:before {
 
 .city-name {
   font-size: 4em;
-  display: none; }
+  opacity: 0;
+  transition: opacity 0.2s ease-out; }
 
 .country-name {
-  font-size: 7em; }
+  font-size: 7em;
+  opacity: 0;
+  transition: opacity 0.2s ease-out; }
 
 .travel-cell:hover .travel-thumbnail {
   -webkit-filter: blur(3px);
-  /* Safari 6.0 - 9.0 */
   filter: blur(3px);
-  transition: 0.3s; }
+  transition: 0.2s; }
 
 .travel-cell:hover .intl-travel-thumbnail {
   -webkit-filter: blur(4.5px);
-  /* Safari 6.0 - 9.0 */
   filter: blur(4.5px);
-  transition: 0.3s; }
+  transition: 0.2s; }
 
 .travel-cell:hover .city-name {
-  display: block;
-  transition: display 0.3s ease-in; }
+  opacity: 1;
+  transition: opacity 0.2s ease-in; }
+
+.travel-cell:hover .country-name {
+  opacity: 1;
+  transition: opacity 0.2s ease-in; }
 
 footer {
   background-color: #1A1A1A;

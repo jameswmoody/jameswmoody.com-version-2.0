@@ -16,6 +16,7 @@
 .travel-thumbnail, .intl-travel-thumbnail {
   margin: 0;
   width: 100%;
+  transition: filter 0.2s ease-in-out;
 }
 .city-name, .country-name {
    text-align:center;
@@ -28,24 +29,31 @@
 }
 .city-name {
   font-size: 4em;
-  display: none;
+  opacity: 0;
+  transition: opacity 0.2s ease-out;
 }
 .country-name {
   font-size: 7em;
+  opacity: 0;
+  transition: opacity 0.2s ease-out;
 }
 .travel-cell:hover .travel-thumbnail {
-  -webkit-filter: blur(3px); /* Safari 6.0 - 9.0 */
+  -webkit-filter: blur(3px);
   filter: blur(3px);
-  transition: 0.3s;
+  transition: 0.2s;
  }
  .travel-cell:hover .intl-travel-thumbnail {
-   -webkit-filter: blur(4.5px); /* Safari 6.0 - 9.0 */
+   -webkit-filter: blur(4.5px);
    filter: blur(4.5px);
-   transition: 0.3s;
+   transition: 0.2s;
   }
  .travel-cell:hover .city-name {
-   display: block;
-   transition: display 0.3s ease-in;
+   opacity: 1;
+   transition: opacity 0.2s ease-in;
+ }
+ .travel-cell:hover .country-name {
+   opacity: 1;
+   transition: opacity 0.2s ease-in;
  }
 
 // .gallery {
