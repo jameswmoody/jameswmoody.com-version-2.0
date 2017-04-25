@@ -164,7 +164,8 @@ p {
   font-size: 20px;
   font-weight: 300;
   color: #6E6F73;
-  line-height: 34px; }
+  line-height: 34px;
+  padding-top: 25px; }
 
 .lightwidget-widget {
   padding-top: 25px; }
