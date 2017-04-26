@@ -86,64 +86,6 @@ table {
 .border-five:hover {
   border-bottom: solid #406244; }
 
-/* Headers */
-/* Home Header */
-.header-img {
-  background: url("http://jameswmoody.com/images/jwm1.jpg") no-repeat center center; }
-
-.header-tag {
-  position: block;
-  vertical-align: middle;
-  padding-top: 42vh;
-  text-shadow: #1A1A1A 0 1px 1px;
-  background: transparent;
-  text-align: center;
-  color: #fff;
-  font-family: "Roboto Mono", monospace;
-  font-size: 30px;
-  margin: 15px; }
-
-cite {
-  float: right;
-  color: #fff;
-  text-shadow: #1A1A1A 0 1px 1px;
-  font-family: "Muli", sans-serif; }
-
-/* Page Headers */
-.headline {
-  vertical-align: middle;
-  padding-top: 40vh;
-  text-shadow: #1A1A1A 0 1px 1px;
-  background: transparent;
-  text-align: center;
-  color: #fff;
-  font-family: "Roboto Mono", monospace;
-  font-size: 5em; }
-
-/* Change headline font size on Mobile */
-@media screen and (max-width: 800px) {
-  .headline {
-    font-size: 3em; } }
-/* Header Fonts */
-h1 {
-  font-family: "Roboto Mono", monospace;
-  font-size: 40px;
-  color: #6E6F73; }
-
-/* Parallax */
-.parallax {
-  height: 100vh;
-  width: 100%;
-  -webkit-background-size: cover;
-  -ms-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-attachment: fixed; }
-
-/* Disable Parallax on Mobile */
-@media screen and (max-width: 800px) {
-  .parallax {
-    background-attachment: scroll; } }
 .inset {
   background-color: #fff;
   padding-top: 50px;
@@ -450,6 +392,64 @@ li.playing:before {
     opacity: 1;
     -webkit-text-stroke-width: .35px;
     -webkit-text-stroke-color: black; } }
+/* Headers */
+/* Home Header */
+.header-img {
+  background: url("http://jameswmoody.com/images/jwm1.jpg") no-repeat center center; }
+
+.header-tag {
+  position: block;
+  vertical-align: middle;
+  padding-top: 42vh;
+  text-shadow: #1A1A1A 0 1px 1px;
+  background: transparent;
+  text-align: center;
+  color: #fff;
+  font-family: "Roboto Mono", monospace;
+  font-size: 30px;
+  margin: 15px; }
+
+cite {
+  float: right;
+  color: #fff;
+  text-shadow: #1A1A1A 0 1px 1px;
+  font-family: "Muli", sans-serif; }
+
+/* Page Headers */
+.headline {
+  vertical-align: middle;
+  padding-top: 40vh;
+  text-shadow: #1A1A1A 0 1px 1px;
+  background: transparent;
+  text-align: center;
+  color: #fff;
+  font-family: "Roboto Mono", monospace;
+  font-size: 5em; }
+
+/* Change headline font size on Mobile */
+@media screen and (max-width: 800px) {
+  .headline {
+    font-size: 3em; } }
+/* Header Fonts */
+h1 {
+  font-family: "Roboto Mono", monospace;
+  font-size: 40px;
+  color: #6E6F73; }
+
+/* Parallax */
+.parallax {
+  height: 100vh;
+  width: 100%;
+  -webkit-background-size: cover;
+  -ms-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-attachment: fixed; }
+
+/* Disable Parallax on Mobile */
+@media screen and (max-width: 800px) {
+  .parallax {
+    background-attachment: scroll; } }
 footer {
   background-color: #1A1A1A;
   width: 100%;
