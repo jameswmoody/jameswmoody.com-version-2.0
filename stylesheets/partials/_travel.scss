@@ -1,5 +1,5 @@
 .travel-img {
-  background: url('http://jameswmoody.com/images/travel.jpg') no-repeat center center fixed;
+  background: url('http://jameswmoody.com/images/travel.jpg') no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
@@ -21,7 +21,7 @@
 .city-name, .country-name {
    text-align:center;
    position: absolute;
-   top: 40%;
+   top: 42%;
    width: 100%;
    color: $white;
    text-shadow: #1A1A1A 0 1px 1px;
@@ -41,20 +41,35 @@
   -webkit-filter: blur(3px);
   filter: blur(3px);
   transition: 0.2s;
- }
- .travel-cell:hover .intl-travel-thumbnail {
-   -webkit-filter: blur(4.5px);
-   filter: blur(4.5px);
-   transition: 0.2s;
+}
+.travel-cell:hover .intl-travel-thumbnail {
+  -webkit-filter: blur(4.5px);
+  filter: blur(4.5px);
+  transition: 0.2s;
+}
+.travel-cell:hover .city-name {
+  opacity: 1;
+  transition: opacity 0.2s ease-in;
+}
+.travel-cell:hover .country-name {
+  opacity: 1;
+  transition: opacity 0.2s ease-in;
+}
+
+@media only screen
+and (min-device-width : 350px)
+and (max-device-width : 1024px)  {
+  .city-name, .country-name  {
+    font-size: 2.5em;
+    opacity: 1;
+    -webkit-text-stroke-width: .35px;
+    -webkit-text-stroke-color: black;
   }
- .travel-cell:hover .city-name {
-   opacity: 1;
-   transition: opacity 0.2s ease-in;
- }
- .travel-cell:hover .country-name {
-   opacity: 1;
-   transition: opacity 0.2s ease-in;
- }
+  .country-header {
+    font-size: 2em;
+  }
+}
+
 
 // .gallery {
 //   margin: auto;
