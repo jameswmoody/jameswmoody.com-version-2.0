@@ -378,7 +378,8 @@ li.playing:before {
 
 #map {
   padding-left: 0;
-  padding-right: 0; }
+  padding-right: 0;
+  margin-bottom: 50px; }
 
 .travel-cell {
   padding: 0;
