@@ -10,13 +10,14 @@
 }
 .travel-cell {
   padding: 0;
-  margin-bottom: -2px;
+  // margin-bottom: -2px;
   background-color: $dark-grey;
 }
 .travel-thumbnail, .intl-travel-thumbnail {
   margin: 0;
   width: 100%;
   transition: filter 0.2s ease-in-out;
+  display: block;
 }
 .city-name, .country-name {
    text-align:center;
