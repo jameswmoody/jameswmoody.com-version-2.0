@@ -24,7 +24,6 @@ cite {
 }
 
 /* Page Headers */
-
 .headline {
   vertical-align: middle;
   padding-top: 40vh;
@@ -35,6 +34,7 @@ cite {
   font-family: $Roboto-Mono;
   font-size: 5em;
 }
+
 /* Change headline font size on Mobile */
 @media screen and (max-width: 800px){
   .headline  {

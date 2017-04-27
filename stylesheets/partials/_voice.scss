@@ -1,3 +1,4 @@
+/* Voice Page */
 .voice-img {
   background: url('http://jameswmoody.com/images/voice.jpg') no-repeat center center fixed;
   -webkit-background-size: cover;
@@ -17,6 +18,8 @@
   display: block;
   width: 100%;
 }
+
+/* AudioJS Player */
 #player-header {
   color: $very-dark-grey;
   font-size: 1.2em;
@@ -24,13 +27,16 @@
   margin: 0;
 }
 #player-header em {
-  font-style: normal; color: #999;
+  font-style: normal;
+  color: #999;
 }
 #wrapper {
-  width: 460px; margin: 5px auto;
+  width: 460px;
+  margin: 5px auto;
 }
 a {
-  color: #888; text-decoration: none;
+  color: #888;
+  text-decoration: none;
 }
 ol {
   padding: 0;
@@ -72,6 +78,8 @@ li.playing:before {
   font-size: 13px;
   text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.2);
 }
+
+/* Mobile AudioJS Player */
 @media screen and (max-width: 800px) {
         #wrapper {
           width: 340px;

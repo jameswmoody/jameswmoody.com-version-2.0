@@ -86,6 +86,7 @@ table {
 .border-five:hover {
   border-bottom: solid #406244; }
 
+/* Basic Content Syling */
 .inset {
   background-color: #fff;
   padding-top: 50px;
@@ -109,9 +110,12 @@ p {
   line-height: 34px;
   padding-top: 25px; }
 
+/* Home Page */
+/* Instagram Widget */
 .lightwidget-widget {
   padding-top: 25px; }
 
+/* Bragsheet */
 .bragsheet {
   display: block;
   margin-left: auto;
@@ -139,6 +143,7 @@ p {
 .wkqx {
   padding-top: 30px; }
 
+/* Email Form */
 .contact-header {
   padding-bottom: 25px; }
 
@@ -165,6 +170,7 @@ label {
     background-color: #5cb85c;
     border: solid 4px #5cb85c; }
 
+/* WebDev Page */
 .portfolio {
   vertical-align: middle;
   text-align: center;
@@ -215,6 +221,7 @@ span.text-content {
 .thumbnail:hover span.text-content {
   opacity: 1; }
 
+/* Voice Page */
 .voice-img {
   background: url("http://jameswmoody.com/images/voice.jpg") no-repeat center center fixed;
   -webkit-background-size: cover;
@@ -234,6 +241,7 @@ span.text-content {
   display: block;
   width: 100%; }
 
+/* AudioJS Player */
 #player-header {
   color: #1A1A1A;
   font-size: 1.2em;
@@ -293,6 +301,7 @@ li.playing:before {
   font-size: 13px;
   text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.2); }
 
+/* Mobile AudioJS Player */
 @media screen and (max-width: 800px) {
   #wrapper {
     width: 340px; }
@@ -325,16 +334,12 @@ li.playing:before {
   padding-left: 0;
   padding-right: 0; }
 
+/* Travel Page */
 .travel-img {
   background: url("http://jameswmoody.com/images/travel.jpg") no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover; }
-
-#map {
-  padding-left: 0;
-  padding-right: 0;
-  margin-bottom: 50px; }
 
 .travel-cell {
   padding: 0;
@@ -384,6 +389,13 @@ li.playing:before {
   opacity: 1;
   transition: opacity 0.2s ease-in; }
 
+/* Google Map */
+#map {
+  padding-left: 0;
+  padding-right: 0;
+  margin-bottom: 50px; }
+
+/* Mobile Travel Page Styling */
 @media only screen and (min-device-width: 350px) and (max-device-width: 1024px) {
   .city-name, .country-name {
     font-size: 2.5em;
@@ -405,6 +417,24 @@ li.playing:before {
     opacity: 1;
     -webkit-text-stroke-width: .35px;
     -webkit-text-stroke-color: black; } }
+/* Photo Gallery */
+.gallery {
+  margin: auto;
+  width: 100%;
+  padding-bottom: 50px; }
+
+.gallery-thumbnail {
+  height: 100px;
+  border-radius: 5px;
+  margin: 10px;
+  box-shadow: 10px 10px 50px #000; }
+
+.rotate {
+  -webkit-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -o-transform: rotate(90deg); }
+
 /* Headers */
 /* Home Header */
 .header-img {
@@ -463,6 +493,7 @@ h1 {
 @media screen and (max-width: 800px) {
   .parallax {
     background-attachment: scroll; } }
+/* Footer */
 footer {
   background-color: #1A1A1A;
   width: 100%;
@@ -486,6 +517,7 @@ footer {
 i {
   padding: 10px; }
 
+/* Override for Bootstrap row margin */
 .row {
   margin-right: 0;
   margin-left: 0; }
