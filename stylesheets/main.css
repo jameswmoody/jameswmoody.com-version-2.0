@@ -221,6 +221,19 @@ span.text-content {
   -moz-background-size: cover;
   background-size: cover; }
 
+.voice-container {
+  padding: 0px; }
+
+.voice-text-box {
+  padding: 40px; }
+
+.voice-pic-box {
+  padding: 0; }
+
+.voice-pic {
+  display: block;
+  width: 100%; }
+
 #player-header {
   color: #1A1A1A;
   font-size: 1.2em;
