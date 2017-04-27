@@ -37,8 +37,8 @@
 .contact-header {
   padding-bottom: 25px;
 }
-label {
-  padding-bottom: 5px;
+input, textarea {
+  margin: 10px;
 }
 .form-control {
   border: solid 2px $light-grey;

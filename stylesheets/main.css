@@ -147,8 +147,8 @@ p {
 .contact-header {
   padding-bottom: 25px; }
 
-label {
-  padding-bottom: 5px; }
+input, textarea {
+  margin: 10px; }
 
 .form-control {
   border: solid 2px #CBCBCB;
@@ -254,7 +254,7 @@ span.text-content {
 
 #wrapper {
   width: 460px;
-  margin: 5px auto; }
+  margin: 50px auto; }
 
 a {
   color: #888;
@@ -301,7 +301,6 @@ li.playing:before {
   font-size: 13px;
   text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.2); }
 
-/* Mobile AudioJS Player */
 @media screen and (max-width: 800px) {
   #wrapper {
     width: 340px; }
