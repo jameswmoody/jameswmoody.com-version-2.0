@@ -253,10 +253,9 @@ span.text-content {
 
 .voice-header {
   font-size: 4em;
-  margin-bottom: 50px; }
+  margin: 50px; }
 
 .voice-bragsheet {
-  padding-top: 30%;
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -275,7 +274,7 @@ span.text-content {
   margin-left: auto;
   margin-right: auto;
   padding: 50px;
-  margin-top: 13%; }
+  margin-top: 30%; }
 
 .client-list {
   padding-top: 25px;
