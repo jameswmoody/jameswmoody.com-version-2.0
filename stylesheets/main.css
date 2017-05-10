@@ -54,8 +54,8 @@ table {
   transition: 0.5s;
   font-family: 'Muli', sans-serif;
   font-size: 11px;
-  border: none;
-  border-bottom-color: #6E6F73; }
+  border-bottom-color: #E5E5E5;
+  border: none; }
 
 .navbar-default .navbar-brand,
 .navbar-default .navbar-brand:hover,
