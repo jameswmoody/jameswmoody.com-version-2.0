@@ -7,6 +7,7 @@
 .header-tag {
   position: block;
   vertical-align: middle;
+  padding: 0;
   padding-top: 42vh;
   text-shadow: $very-dark-grey 0 1px 1px;
   background: transparent;
@@ -48,6 +49,7 @@ h1 {
   font-family: $Roboto-Mono;
   font-size: 40px;
   color: #6E6F73;
+  padding: 8px;
 }
 
 /* Parallax */
