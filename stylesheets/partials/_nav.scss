@@ -36,3 +36,21 @@
 .border-five:hover  {
   border-bottom: solid $global-color-five;
 }
+.navbar-toggle {
+  margin-top: 10px;
+}
+.nav-link-dropdown {
+  margin-right: 15px;
+}
+.dropdown-menu {
+  margin-right: 15px;
+  min-width: 95px;
+  border: none;
+  border-radius: 0;
+  li>a {
+    padding: 3px 15px;
+  }
+}
+.dropdown-header {
+  padding: 3px 15px;
+}

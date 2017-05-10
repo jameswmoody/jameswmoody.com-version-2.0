@@ -3,3 +3,9 @@
   margin-right: 0;
   margin-left: 0;
 }
+
+@media (min-width: 768px){
+  .navbar-right .dropdown-menu {
+    left:0;
+  }
+}
