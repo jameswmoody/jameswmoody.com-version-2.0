@@ -86,6 +86,23 @@ table {
 .border-five:hover {
   border-bottom: solid #406244; }
 
+.navbar-toggle {
+  margin-top: 10px; }
+
+.nav-link-dropdown {
+  margin-right: 15px; }
+
+.dropdown-menu {
+  margin-right: 15px;
+  min-width: 95px;
+  border: none;
+  border-radius: 0; }
+  .dropdown-menu li > a {
+    padding: 3px 15px; }
+
+.dropdown-header {
+  padding: 3px 15px; }
+
 /* Basic Content Syling */
 .inset {
   background-color: #fff;
@@ -255,26 +272,9 @@ span.text-content {
   font-size: 4em;
   margin: 50px; }
 
-.voice-bragsheet {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  padding: 50px; }
-
 .voice-text {
   padding: 50px;
   font-size: 1.5em; }
-
-.radio-studio {
-  background: url("../images/voice-imgs/voice1-1.jpg") no-repeat center center;
-  height: 80vh; }
-
-.voice-logos {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  padding: 50px;
-  margin-top: 30%; }
 
 .client-list {
   padding-top: 25px;
@@ -577,5 +577,9 @@ i {
 .row {
   margin-right: 0;
   margin-left: 0; }
+
+@media (min-width: 768px) {
+  .navbar-right .dropdown-menu {
+    left: 0; } }
 
 /*# sourceMappingURL=main.css.map */
