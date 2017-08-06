@@ -56,7 +56,7 @@ table {
   font-family: 'Muli', sans-serif;
   font-size: 11px;
   border: none;
-  border-color: transparent; }
+  border-color: rgba(0, 0, 0, 0); }
 
 .navbar-default .navbar-brand,
 .navbar-default .navbar-brand:hover,
@@ -88,7 +88,8 @@ table {
   border-bottom: solid #406244; }
 
 .navbar-toggle {
-  margin-top: 10px; }
+  margin-top: 10px;
+  border: none; }
 
 .nav-link-dropdown {
   margin-right: 15px; }
@@ -110,6 +111,21 @@ table {
   color: #fff;
   background-color: rgba(231, 231, 231, 0.5); }
 
+@media only screen and (min-device-width: 320px) and (max-device-width: 736px) {
+  .navbar-default .navbar-brand,
+  .navbar-default .navbar-brand:hover,
+  .navbar-default .navbar-nav > li > a,
+  .navbar-default .navbar-nav > li > a:hover {
+    color: #6E6F73 !important; }
+
+  .navbar-header {
+    background-color: rgba(231, 231, 231, 0.5); }
+
+  .nav-link {
+    color: #6E6F73 !important; }
+
+  .navbar-collapse {
+    background-color: rgba(231, 231, 231, 0.9); } }
 /* Basic Content Syling */
 .inset {
   background-color: #fff;
@@ -500,7 +516,6 @@ li.playing:before {
   background: url("http://jameswmoody.com/images/jwm1.jpg") no-repeat center center; }
 
 .header-tag {
-  position: block;
   vertical-align: middle;
   padding: 0;
   padding-top: 42vh;
