@@ -1,0 +1,105 @@
+/* Fonts */
+
+h1, h3, h5, p, footer, footer a, footer a:visited {
+	color: #fefdfb;
+	text-shadow: 2px 2px 4px #000000;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+footer a:hover {
+	color: #CBCBCB;
+}
+#logo {
+	position: relative;
+	font-size: 72px;
+	font-weight: 700;
+	margin-top: 10%;
+	margin-left: 20%;
+}
+#tagline {
+	margin-left: 20%;
+	color: #5CB85C;
+	font-weight: 400;
+}
+#description {
+	margin-left: 20%;
+	margin-right: 20%;
+	font-size: 16px;
+	font-weight: 300;
+}
+
+/* Home Page */
+
+body {
+	background-color: #140C01;
+}
+.backsplash { 
+	width: 100%; 
+	height: 100vh; 
+  	background: url(images/bar.jpg) no-repeat center center;
+  	background-size: cover;
+}
+#phone { 
+  	height: 95vh;
+  	position: relative;
+}
+button {
+	position: relative;
+	margin-top: 12%;
+	box-shadow: 2px 2px 4px #000000;
+}
+#sign-up {
+	text-align:center;
+}
+
+/* Mobile */
+
+@media screen and (max-width: 768px) {
+    #logo {
+        margin-top: 0;
+        margin-left: 10%;
+        padding-top: 40%;
+    }
+    #tagline {
+    	text-align: center;
+		margin-left: 0%;
+	}
+	#description {
+		margin-left: 10px;
+		margin-right: 10px;
+	}
+	#phone { 
+  		height: 80vh;
+  		position: relative;
+  		display:block;
+    	margin:auto;
+	}
+	footer {
+		padding: 10px;
+	}
+}
+
+@media screen and (max-width: 480px) {
+    #logo {
+        text-align: center;
+        margin-top: 0;
+        margin-left: 0;
+        padding-top: 20px;
+    }
+    #tagline {
+    	text-align: center;
+		margin-left: 0%;
+	}
+	#description {
+		margin-left: 10px;
+		margin-right: 10px;
+	}
+	#phone { 
+  		height: 80vh;
+  		position: relative;
+  		display:block;
+    	margin:auto;
+	}
+	footer {
+		padding: 10px;
+	}
+}

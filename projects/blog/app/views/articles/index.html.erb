@@ -1,0 +1,22 @@
+<h1>Archives</h1>
+<div class="container">
+  <div class="row">
+    <center><%= link_to 'New Article', new_article_path %> | <%= link_to 'Back', root_path %></center><br><br>
+      <div class="col-md-12 content">
+        <% @articles.each do |article| %>
+          <br><br>
+          <h3><%= article.title %></h3>
+          <br>
+          <p><%= article.text.split[0...20].join(' ').html_safe + '...'%> <%= link_to 'Show More', article_path(article) %></p>
+          <br>
+          <p><%= article.created_at.strftime("%b %d, %Y") %></p>
+          <br>
+          <%= link_to 'Edit', edit_article_path(article) %> |
+          <%= link_to 'Delete', article_path(article),
+                method: :delete,
+                data: { confirm: 'Are you sure?' } %>
+          <hr size=2>
+      <% end %>
+    </div>
+  </div> <br><br><br><br>
+</div>

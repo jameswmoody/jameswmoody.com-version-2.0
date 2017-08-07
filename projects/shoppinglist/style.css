@@ -1,0 +1,105 @@
+html {
+	background-color: #BFBFBF;
+}
+
+/* Main Div Styling */
+
+.container {
+	display: block;
+	position: absolute;
+	width: 500px;
+	left:50%;
+	margin: 35px 0 0 -250px;
+	text-align: center;
+    box-shadow: 10px 10px 50px #B6B6B6;
+}
+.main {
+	background-color: #E2E2E2;
+	background: -webkit-linear-gradient(#E2E2E2, #BFBFBF);
+    background: -o-linear-gradient(#E2E2E2, #BFBFBF);
+    background: linear-gradient(#E2E2E2, #BFBFBF);
+}
+.header {
+	height: 60px;
+	background-color: #0743B5;
+    background: -webkit-linear-gradient(#0743B5, #0B56E3);
+    background: -o-linear-gradient(#0743B5, #0B56E3);
+    background: linear-gradient(#0743B5, #0B56E3);
+    color: #fff;
+	font-size: 48px;
+    -webkit-font-smoothing:antialiased;
+}
+.lsInput {
+	margin: 10px;
+	width: 338px;
+	height: 35px;
+	font-size: 20px;
+	color: #676767;
+	border-radius: 5px;
+	border: 1px #979797 solid;
+}
+
+/* Fonts */
+
+.header, .lsItem, .add, .instrct {
+	font-family:"Century Gothic", Arial, sans-serif;
+	font-weight:100;
+}
+.header {
+	color: #fff;
+	font-size: 48px;
+    font-weight:100;
+    -webkit-font-smoothing:antialiased;
+    padding-top: 10px;
+}
+.instrct {
+	font-size: 12px;
+	color: #676767;
+	padding: 5px;
+}
+
+/* Button Styling */
+
+.add {
+	display: inline-block;
+	width: 60px;
+	height: 29px;
+	background-color: #9E9E9E;
+	background: -webkit-linear-gradient(#BEBEBE, #9E9E9E);
+    background: -o-linear-gradient(#BEBEBE, #9E9E9E);
+    background: linear-gradient(#BEBEBE, #9E9E9E);
+	border-radius: 5px;
+	border: solid #979797 1px;
+	font-size: 20px;
+	color: #676767;
+	text-align: center;
+	margin: 10px;
+	padding-top: 8px;
+	cursor: pointer;
+}
+
+/* List Item Styling */
+
+.lsItem, .strike {
+	width: 390px;
+	height: 22px;
+	background: -webkit-linear-gradient(#DADADA, #F7F7F7);
+    background: -o-linear-gradient(#DADADA, #F7F7F7);
+    background: linear-gradient(#DADADA, #F7F7F7);
+	border-radius: 5px;
+	border: 1px solid #979797;
+	padding: 8px;
+	margin: 4px auto 4px auto;
+	font-size: 20px;
+	color: #676767;
+	-webkit-user-select: none;      
+	-moz-user-select: none;
+	-ms-user-select: none;
+	cursor: pointer;
+}
+.strike {
+	text-decoration: line-through;
+	background-image: url('images/check_mark.png');
+	background-repeat: no-repeat;
+	background-position: 98% 50%;
+}

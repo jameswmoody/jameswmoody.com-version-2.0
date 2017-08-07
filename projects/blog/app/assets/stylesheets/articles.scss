@@ -1,0 +1,80 @@
+// Place all the styles related to the Articles controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+/* VENDOR - CSS Reset/Normalize and external files.
+========================================================================== */
+@import '../../../vendor/assets/stylesheets/_reset.scss';
+@import '../../../vendor/assets/stylesheets/_normalize.scss';
+@import 'https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css';
+
+@import url('https://fonts.googleapis.com/css?family=Lato:100|Open+Sans:300');
+@import url('https://fonts.googleapis.com/css?family=Lato:100|Open+Sans:300');
+
+.gradient {
+  background: #035972; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(left top, #035972, #D0D59B); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(left top, #035972, #D0D59B); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(left top, #035972, #D0D59B); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to left top, #035972, #D0D59B); /* Standard syntax */
+  width: 100%;
+  background-attachment: fixed;
+}
+
+.content {
+  background: rgba(255, 255, 255, .5)
+}
+
+h1 {
+	font-size: 5em;
+  text-align: center;
+  font-family: 'Lato', sans-serif;
+  color: #fff;
+  text-shadow: 2px 2px 8px #424242;
+}
+
+a {
+  color: #25547C;
+  font-size: 18px;
+  font-family: 'Open Sans', sans-serif;
+  text-decoration: none;
+}
+a:hover {
+  color: #337ab7;
+  text-decoration: none;
+}
+
+hr {
+  border-top: 1px solid #919191;
+}
+.comment-hr {
+  width: 20%;
+  float: left;
+}
+
+input[name="article[title]"], input[name="comment[commenter]"] {
+  width: 40%;
+  background-color: rgba(255, 255, 255, 0.5);
+  border: none;
+}
+
+textarea {
+  width: 50%;
+  height: 40vh;
+  opacity: 0.5;
+}
+
+img {
+  width: 50vw;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media only screen
+and (min-device-width : 300px)
+and (max-device-width : 1000px) {
+  img {
+    width: 90vw;
+  }
+}

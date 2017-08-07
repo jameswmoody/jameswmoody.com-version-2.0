@@ -1,0 +1,50 @@
+// Messages
+
+.messages {
+  margin-top: 100px;
+  z-index:2;
+}
+.message {
+  background-color: #fff;
+  font-weight: 300;
+  width: 50vw;
+  float: left;
+  padding: 20px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+}
+.user_name {
+  font-weight: bold;
+}
+.right {
+  float: right;
+  background-color: #E5F9EC;
+}
+p.time {
+  color: #0084d7;
+  font-size: 12px;
+  margin-top: 12px;
+}
+.delete-link {
+  font-size: 12px;
+  float: right;
+  text-decoration: none;
+  color: #ff4444;
+}
+.delete-link:hover {
+  text-decoration: none;
+}
+
+// Media
+
+@media screen and (max-width: 450px) {
+    .messages {
+      margin-top: 50px;
+    }
+    .messages, .create {
+      padding: 0 20px;
+    }
+    .message {
+      width: 60vw;
+    }
+}

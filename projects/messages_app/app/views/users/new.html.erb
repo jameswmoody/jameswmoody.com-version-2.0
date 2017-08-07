@@ -1,0 +1,29 @@
+<div class="messages">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6 col-md-offset-3 create center">
+        <%= form_for(@user, url: signup_path) do |f| %>
+
+          <%= render 'shared/error_messages' %>
+          
+         <h1>Sign up</h1>
+          <%= f.label :name %>
+          <%= f.text_field :name, class: 'field form-control' %>
+
+          <%= f.label :email %>
+          <%= f.email_field :email, class: 'field form-control' %>
+
+          <%= f.label :password %>
+          <%= f.password_field :password, class: 'field form-control' %>
+
+          <%= f.label :password_confirmation, "Re-Type Password" %>
+          <%= f.password_field :password_confirmation, class: 'field form-control' %>
+        <div class="actions">
+          <%= f.submit "Create my account" %>
+        </div>
+      <% end %>
+      <p>Already a user? <%= link_to "Log in!", login_path %></p>
+      </div>
+    </div>
+  </div>
+</div>
