@@ -12,7 +12,7 @@
   background: transparent;
   text-align: center;
   color: $white;
-  font-family: $Roboto-Mono;
+  font-family: $Serif;
   font-size: 30px;
   margin: 15px;
 }
@@ -20,7 +20,7 @@ cite {
   float: right;
   color: $white;
   text-shadow: $very-dark-grey 0 1px 1px;
-  font-family: $Muli;
+  font-family: $Brand;
 }
 
 /* Page Headers */
@@ -31,7 +31,7 @@ cite {
   background: transparent;
   text-align: center;
   color: $white;
-  font-family: $Roboto-Mono;
+  font-family: $Header;
   font-size: 5em;
 }
 
@@ -45,9 +45,9 @@ cite {
 
 /* Header Fonts */
 h1 {
-  font-family: $Roboto-Mono;
+  font-family: $Serif;
   font-size: 40px;
-  color: #6E6F73;
+  color: #515151;
   padding: 8px;
 }
 
