@@ -1,0 +1,22 @@
+.btn {
+  margin-top: 40px;
+  background-color: $transparent;
+  color: $button-color;
+  border: solid 2px $button-color;
+  width: 200px;
+  height: 55px;
+  font-family: "Arvo", serif;
+  box-shadow: inset 0 0 0 0 $button-color;
+  -webkit-transition: all ease 0.2s;
+  -moz-transition: all ease 0.2s;
+  transition: all ease 0.2s;
+  transition: all ease 0.2s;
+  &:hover {
+    box-shadow: inset 200px 0 0 0 $button-color;
+    color: $white;
+    background-color: $button-color;
+  }
+  &:focus {
+    outline: none;
+  }
+}
