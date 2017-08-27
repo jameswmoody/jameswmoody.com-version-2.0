@@ -67,6 +67,10 @@ table {
   .btn:focus {
     outline: none; }
 
+@media screen and (max-width: 800px) {
+  .btn {
+    background-color: #02B2E4;
+    color: #fff; } }
 /* Navbar */
 .navbar-default {
   background-color: transparent;
@@ -146,15 +150,15 @@ table {
   .navbar-collapse {
     background-color: rgba(231, 231, 231, 0.9); } }
 /* Basic Content Syling */
-.inset {
-  background-color: #fff;
+.inset, .outset {
   padding-top: 100px;
   padding-bottom: 100px; }
 
+.inset {
+  background-color: #fff; }
+
 .outset {
-  background-color: #ECECEC;
-  padding-top: 100px;
-  padding-bottom: 100px; }
+  background-color: #ECECEC; }
 
 h2 {
   font-family: "Arvo", serif;
@@ -174,6 +178,10 @@ p {
   line-height: 34px;
   padding-top: 25px; }
 
+@media screen and (max-width: 800px) {
+  .inset, .outset {
+    padding-top: 40px;
+    padding-bottom: 40px; } }
 /* Home Page */
 /* Recent */
 .recent-project-thumbnail {

@@ -1,13 +1,14 @@
 /* Basic Content Syling */
-.inset {
-  background-color: $white;
+.inset, .outset {
   padding-top: 100px;
   padding-bottom: 100px;
 }
+
+.inset {
+  background-color: $white;
+}
 .outset {
   background-color: $very-light-grey;
-  padding-top: 100px;
-  padding-bottom: 100px;
 }
 h2 {
   font-family: $Serif;
@@ -26,4 +27,11 @@ p {
   color: $font-color;
   line-height: 34px;
   padding-top: 25px;
+}
+
+@media screen and (max-width: 800px){
+  .inset, .outset  {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
 }
