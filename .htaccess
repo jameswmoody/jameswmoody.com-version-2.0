@@ -10,3 +10,8 @@ RewriteRule ^/?$ "http\:\/\/jameswmoody\.com\/" [R=301,L]
     ExpiresByType image/gif "access plus 1 month"
     ExpiresByType image/png "access plus 1 month"
 </IfModule>
+
+<IfModule mod_headers.c>
+# Set XSS Protection header
+Header set X-XSS-Protection "1; mode=block"
+</IfModule>
