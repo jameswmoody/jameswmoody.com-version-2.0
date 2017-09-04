@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+<url>
+  <loc>http://jameswmoody.com/</loc>
+  <lastmod>2017-09-04T03:50:09+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>http://jameswmoody.com/webdev/</loc>
+  <lastmod>2017-09-04T03:50:27+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://jameswmoody.com/resume/</loc>
+  <lastmod>2017-09-04T02:30:13+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://jameswmoody.com/travel/</loc>
+  <lastmod>2017-09-04T03:50:27+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://jameswmoody.com/projects/tabout/</loc>
+  <lastmod>2017-09-04T02:30:18+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://jameswmoody.com/projects/ChristinaBYoung/</loc>
+  <lastmod>2017-09-04T02:30:15+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://jameswmoody.com/projects/8ball/</loc>
+  <lastmod>2017-08-07T16:53:27+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://jameswmoody.com/projects/ChristinaBYoung/cv.html</loc>
+  <lastmod>2017-09-04T02:30:14+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://jameswmoody.com/projects/ChristinaBYoung/pdf/CV59.pdf</loc>
+  <lastmod>2017-09-04T02:30:28+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.51</priority>
+</url>
+</urlset>
