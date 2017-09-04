@@ -10,6 +10,9 @@
   margin-bottom: -2px;
   background-color: $dark-grey;
 }
+.country-header {
+  font-size: 2.5em;
+}
 .travel-thumbnail, .intl-travel-thumbnail {
   margin: 0;
   width: 100%;
@@ -58,7 +61,8 @@
 #map {
   padding-left: 0;
   padding-right: 0;
-  margin-bottom: 50px;
+  height: 400px;
+  width: 100%;
 }
 
 /* Mobile Travel Page Styling */
