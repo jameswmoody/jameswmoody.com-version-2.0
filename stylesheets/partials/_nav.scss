@@ -63,20 +63,40 @@
     background-color: rgba(231,231,231, 0.5);
 }
 
+.dark-nav-button {
+  background-color: $dark-grey !important;
+}
+
+.white-nav-button {
+  background-color: $white !important;
+}
+
 @media only screen
 and (min-device-width : 320px)
 and (max-device-width : 736px) {
+  .navbar-fixed-top .navbar-collapse {
+    max-height: 100%;
+  }
   .navbar-default .navbar-brand,
-  .navbar-default .navbar-brand:hover,
+  .navbar-default .navbar-brand:hover{
+    color: $white;
+  }
   .navbar-default .navbar-nav>li>a,
   .navbar-default .navbar-nav>li>a:hover {
-    color: #6E6F73 !important;
+    color: $very-dark-grey !important;
+    text-align: center;
   }
   .navbar-header {
-    background-color: rgba(231,231,231, 0.5);
+    // background-color: rgba(231,231,231, 0.5);
   }
+  .navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+    background: none;
+  }
+  // .navbar-default .navbar-toggle .icon-bar {
+  //   background-color: $white;
+  // }
   .nav-link {
-    color: #6E6F73 !important;
+    color: #6E6F73;
   }
   .navbar-collapse {
     background-color: rgba(231,231,231, 0.9);

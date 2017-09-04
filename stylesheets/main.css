@@ -134,18 +134,30 @@ table {
   color: #fff;
   background-color: rgba(231, 231, 231, 0.5); }
 
+.dark-nav-button {
+  background-color: #444 !important; }
+
+.white-nav-button {
+  background-color: #fff !important; }
+
 @media only screen and (min-device-width: 320px) and (max-device-width: 736px) {
+  .navbar-fixed-top .navbar-collapse {
+    max-height: 100%; }
+
   .navbar-default .navbar-brand,
-  .navbar-default .navbar-brand:hover,
+  .navbar-default .navbar-brand:hover {
+    color: #fff; }
+
   .navbar-default .navbar-nav > li > a,
   .navbar-default .navbar-nav > li > a:hover {
-    color: #6E6F73 !important; }
+    color: #1A1A1A !important;
+    text-align: center; }
 
-  .navbar-header {
-    background-color: rgba(231, 231, 231, 0.5); }
+  .navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+    background: none; }
 
   .nav-link {
-    color: #6E6F73 !important; }
+    color: #6E6F73; }
 
   .navbar-collapse {
     background-color: rgba(231, 231, 231, 0.9); } }
