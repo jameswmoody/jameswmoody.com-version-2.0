@@ -453,6 +453,9 @@ li.playing:before {
   margin-bottom: -2px;
   background-color: #444; }
 
+.country-header {
+  font-size: 2.5em; }
+
 .travel-thumbnail, .intl-travel-thumbnail {
   margin: 0;
   width: 100%;
