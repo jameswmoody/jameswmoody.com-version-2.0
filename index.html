@@ -2,6 +2,7 @@
 <html lang="en">
 
 <head>
+  <title>James W Moody | Full Stack Developer</title>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="description" content="James W Moody is a Full Stack Web Developer specializing in Ruby on Rails, JavaScript, and TDD. Expect to find cool side projects and travel pictures.">
@@ -21,10 +22,9 @@
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:image:alt" content="James W Moody">
   <!-- Stylesheets -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="preload" as="style" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous" onload="this.rel='stylesheet'">
+  <link rel="preload" as="style" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" onload="this.rel='stylesheet'">
   <link rel="stylesheet" href="stylesheets/main.min.css">
-  <title>James W Moody | Full Stack Developer</title>
 </head>
 
 <body>
@@ -105,7 +105,7 @@
         <div class="col-md-4">
           <h3>TabOut</h3>
           <a href="https://tab-out.herokuapp.com/">
-            <img class="recent-project-thumbnail" src="http://jameswmoody.com/images/tabout-app.jpg" alt="TabOut">
+            <img class="recent-project-thumbnail" data-src="http://jameswmoody.com/images/webp/tabout-app.webp" alt="TabOut">
           </a>
           <p class="text-left">We all know the struggle of being ready to leave a crowded bar, only to have to fight several other people for the bartender's attention just to close out your tab. Over the last month, I've had the pleasure of leading a team of four developers
             as we attempt to provide a meaningful solution to this common problem.<br><br> So far, we’ve built a mobile-first web app as a proof of concept using Ruby on Rails, Javascript and jQuery, PostgreSQL for our database, and many, many hours of
@@ -114,7 +114,7 @@
         <div class="col-md-4">
           <h3>Rosey's MS Foundation</h3>
           <a href="https://roseysmsfoundation.com/">
-            <img class="recent-project-thumbnail" src="http://jameswmoody.com/images/roseys.jpg" alt="Rosey's MS Foundation">
+            <img class="recent-project-thumbnail" data-src="http://jameswmoody.com/images/webp/roseys.webp" alt="Rosey's MS Foundation">
           </a>
           <p class="text-left">Rosey's MS Foundation is a not for profit 501 C3 organization, devoted to finding a cure for Multiple Sclerosis and related auto-immune diseases.<br><br>As Rosey's Web Developer, I've worked with the Board of Directors to provide various solutions
             to increase the organizations web presence. This has included building and maintaining the main website, working with Northwestern University's Feinberg School of Medicine, and assisting in social media outreach..</p>
@@ -122,7 +122,7 @@
         <div class="col-md-4">
           <h3>MovieCrate</h3>
           <a href="https://moviecrate.herokuapp.com/">
-            <img class="recent-project-thumbnail" src="http://jameswmoody.com/images/moviecrate.jpg" alt="MovieCrate">
+            <img class="recent-project-thumbnail" data-src="http://jameswmoody.com/images/webp/moviecrate.webp" alt="MovieCrate">
           </a>
           <p class="text-left">Looking for all of your Action movies? Want to see something with Samuel L. Jackson? Or maybe 1994 was a good year for you. MovieCrate can be used with a number of keywords and search terms to get to your movies quicker. Built with Ruby, Sinatra,
             and The Movie Database API.</p>
@@ -142,15 +142,15 @@
       <h2>Who I've Worked With</h2>
       <div class="bragsheet">
         <div class="row">
-          <div class="col-xs-6 col-sm-3"><img class="logos braintree" src="images/logos/braintree-logo.png" alt="Braintree"></div>
-          <div class="col-xs-6 col-sm-3"><img class="logos apple" src="images/logos/apple-logo.png" alt="Apple"></div>
-          <div class="col-xs-6 col-sm-3"><img class="logos cumulus" src="images/logos/cumulus-logo.png" alt="Cumulus"></div>
-          <div class="col-xs-6 col-sm-3"><img class="logos loop" src="images/logos/wlup-logo.png" alt="97.9 The Loop"></div>
+          <div class="col-xs-6 col-sm-3"><img class="logos braintree" data-src="images/logos/braintree-logo.png" alt="Braintree"></div>
+          <div class="col-xs-6 col-sm-3"><img class="logos apple" data-src="images/logos/apple-logo.png" alt="Apple"></div>
+          <div class="col-xs-6 col-sm-3"><img class="logos cumulus" data-src="images/logos/cumulus-logo.png" alt="Cumulus"></div>
+          <div class="col-xs-6 col-sm-3"><img class="logos loop" data-src="images/logos/wlup-logo.png" alt="97.9 The Loop"></div>
         </div>
         <div class="row">
-          <div class="col-xs-6 col-sm-4"><img class="logos wkqx" src="images/logos/wkqx-logo.png" alt="WQKX"></div>
-          <div class="col-xs-6 col-sm-4"><img class="logos espn" src="images/logos/espn-logo.png" alt="ESPN"></div>
-          <div class="col-xs-12 col-sm-4"><img class="logos colum" src="images/logos/colum-logo.png" alt="Columbia College Chicago"></div>
+          <div class="col-xs-6 col-sm-4"><img class="logos wkqx" data-src="images/logos/wkqx-logo.png" alt="WQKX"></div>
+          <div class="col-xs-6 col-sm-4"><img class="logos espn" data-src="images/logos/espn-logo.png" alt="ESPN"></div>
+          <div class="col-xs-12 col-sm-4"><img class="logos colum" data-src="images/logos/colum-logo.png" alt="Columbia College Chicago"></div>
         </div>
         <div class="row">
           <h3>Ready to see more?</h3>
