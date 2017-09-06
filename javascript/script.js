@@ -36,9 +36,7 @@ $(document).ready(function() {
 
 // Lazy Load Images
 function isElementInViewport (el) {
-
     var rect = el.getBoundingClientRect();
-
     return (
         rect.top >= 0 &&
         rect.left >= 0 &&

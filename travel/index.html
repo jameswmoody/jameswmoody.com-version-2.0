@@ -92,221 +92,6 @@
     <div class="container-wide">
       <div class="row">
         <div class="col-md-12" id="map"></div>
-        <script>
-          function initMap() {
-
-            /* US Cites */
-            var det = {
-              lat: 42.331429,
-              lng: -83.045753
-            };
-            var chi = {
-              lat: 41.881832,
-              lng: -87.623177
-            };
-            var nyc = {
-              lat: 40.730610,
-              lng: -73.935242
-            };
-            var dc = {
-              lat: 38.889931,
-              lng: -77.009003
-            };
-            var mil = {
-              lat: 43.038902,
-              lng: -87.906471
-            };
-            var lv = {
-              lat: 36.114647,
-              lng: -115.172813
-            };
-            var la = {
-              lat: 34.052235,
-              lng: -118.243683
-            };
-            var sf = {
-              lat: 37.773972,
-              lng: -122.431297
-            };
-            var cle = {
-              lat: 41.505493,
-              lng: -81.681290
-            };
-            var mem = {
-              lat: 35.040031,
-              lng: -89.981873
-            };
-            var atl = {
-              lat: 33.753746,
-              lng: -84.386330
-            };
-            var stl = {
-              lat: 38.627003,
-              lng: -90.199402
-            };
-            var indy = {
-              lat: 39.771854,
-              lng: -86.157013
-            };
-            var lou = {
-              lat: 38.328732,
-              lng: -85.764771
-            };
-            var sd = {
-              lat: 32.715736,
-              lng: -117.161087
-            };
-            var phx = {
-              lat: 33.448376,
-              lng: -112.074036
-            };
-            var min = {
-              lat: 44.986656,
-              lng: -93.258133
-            };
-            var phi = {
-              lat: 39.952583,
-              lng: -75.165222
-            };
-            var dal = {
-              lat: 32.7766642,
-              lng: -96.7969879
-            };
-            var fwt = {
-              lat: 32.768799,
-              lng: -97.309341
-            };
-            var atx = {
-              lat: 30.307182,
-              lng: -97.755996
-            };
-            var sa = {
-              lat: 29.424349,
-              lng: -98.491142
-            };
-            var hou = {
-              lat: 29.780472,
-              lng: -95.386342
-            };
-            var sj = {
-              lat: 37.296867,
-              lng: -121.819306
-            };
-            var kc = {
-              lat: 39.125212,
-              lng: -94.551136
-            };
-            var des = {
-              lat: 41.619549,
-              lng: -93.598022
-            };
-            var mv = {
-              lat: 37.030856,
-              lng: -110.251207
-            };
-            var moab = {
-              lat: 38.573315,
-              lng: -109.549843
-            };
-            var flag = {
-              lat: 35.198284,
-              lng: -111.651299
-            };
-            var four = {
-              lat: 36.9989796,
-              lng: -109.0452363
-            };
-            var nash = {
-              lat: 36.174465,
-              lng: -86.767960
-            };
-            var oak = {
-              lat: 37.801239,
-              lng: -122.258301
-            };
-            var port = {
-              lat: 45.523064,
-              lng: -122.676483
-            };
-            var sea = {
-              lat: 47.608013,
-              lng: -122.335167
-            };
-            var omaha = {
-              lat: 41.257160,
-              lng: -95.995102
-            };
-            var bos = {
-              lat: 42.3601,
-              lng: -71.0589
-            };
-            var prov = {
-              lat: 41.8240,
-              lng: -71.4128
-            };
-            var nola = {
-              lat: 29.9511,
-              lng: -90.0715
-            };
-
-            /* Countries */
-            var can = {
-              lat: 49.246292,
-              lng: -123.116226
-            };
-            var mex = {
-              lat: 19.432608,
-              lng: -99.133209
-            };
-            var kor = {
-              lat: 37.532600,
-              lng: 127.024612
-            };
-            var jpn = {
-              lat: 35.652832,
-              lng: 139.839478
-            };
-            var bel = {
-              lat: 50.8503,
-              lng: 4.3517
-            };
-            var grc = {
-              lat: 37.9838,
-              lng: 23.7275
-            };
-            var gbr = {
-              lat: 51.5074,
-              lng: 0.1278
-            };
-            var fra = {
-              lat: 48.8566,
-              lng: 2.3522
-            };
-            var nld = {
-              lat: 52.3702,
-              lng: 4.8952
-            };
-
-            var map = new google.maps.Map(document.getElementById('map'), {
-              zoom: 2,
-              center: omaha,
-              scrollwheel: false
-            });
-
-            var cities = [det, chi, nyc, dc, mil, lv, la, sf, cle, mem, atl, stl, indy, lou, sd, phx, min, phi, dal, fwt, atx, sa, hou, sj, kc, des, mv, moab, flag, four, nash, oak, port, sea, omaha, bos, prov, nola, can, mex, kor, jpn, bel, grc,
-              gbr, fra, nld
-            ];
-
-            for (var i = cities.length; i >= 0; i--) {
-              var marker = new google.maps.Marker({
-                position: cities[i],
-                map: map
-              });
-            };
-          }
-        </script>
-        <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC-h6hPLL72Sq-e8cNgkF-eCbFkIQfbggA&callback=initMap">
-        </script>
       </div>
     </div>
   </div>
@@ -323,13 +108,13 @@
       <div class="col-md-6 travel-cell">
         <!-- <a href="http://jameswmoody.com/travel/det"> -->
         <h2 class="city-name">Detroit</h2>
-        <img class="travel-thumbnail" src="../images/travel-imgs/thumb/det-main.jpg" alt="Detroit">
+        <img class="travel-thumbnail" data-src="../images/travel/thumb/det-main.jpg" alt="Detroit">
         <!-- </a> -->
       </div>
       <div class="col-md-6 travel-cell">
         <!-- <a href="http://jameswmoody.com/travel/chi"> -->
         <h2 class="city-name">Chicago</h2>
-        <img class="travel-thumbnail" src="../images/travel-imgs/thumb/chi-main.jpg" alt="Chicago">
+        <img class="travel-thumbnail" data-src="../images/travel/thumb/chi-main.jpg" alt="Chicago">
         <!-- </a> -->
       </div>
     </div>
@@ -338,13 +123,13 @@
       <div class="col-md-6 travel-cell">
         <!-- <a href="http://jameswmoody.com/travel/nyc"> -->
         <h2 class="city-name">New York City</h2>
-        <img class="travel-thumbnail" src="../images/travel-imgs/thumb/nyc-main.jpg" alt="New York City">
+        <img class="travel-thumbnail" data-src="../images/travel/thumb/nyc-main.jpg" alt="New York City">
         <!-- </a> -->
       </div>
       <div class="col-md-6 travel-cell">
         <!-- <a href="http://jameswmoody.com/travel/dc"> -->
         <h2 class="city-name">Washington D.C.</h2>
-        <img class="travel-thumbnail" src="../images/travel-imgs/thumb/dc-main.jpg" alt="Image Source: Lonely Planet's page for Washington D.C.">
+        <img class="travel-thumbnail" data-src="../images/travel/thumb/dc-main.jpg" alt="Image Source: Lonely Planet's page for Washington D.C.">
         <!-- </a> -->
       </div>
     </div>
@@ -353,13 +138,13 @@
       <div class="col-md-6 travel-cell">
         <!-- <a href="http://jameswmoody.com/travel/lv"> -->
         <h2 class="city-name">Las Vegas</h2>
-        <img class="travel-thumbnail" src="../images/travel-imgs/thumb/lv-main.jpg" alt="Las Vegas">
+        <img class="travel-thumbnail" data-src="../images/travel/thumb/lv-main.jpg" alt="Las Vegas">
         <!-- </a> -->
       </div>
       <div class="col-md-6 travel-cell">
         <!-- <a href="http://jameswmoody.com/travel/sf"> -->
         <h2 class="city-name">San Francisco</h2>
-        <img class="travel-thumbnail" src="../images/travel-imgs/thumb/sf-main.jpg" alt="San Francisco">
+        <img class="travel-thumbnail" data-src="../images/travel/thumb/sf-main.jpg" alt="San Francisco">
         <!-- </a> -->
       </div>
     </div>
@@ -368,13 +153,13 @@
       <div class="col-md-6 travel-cell">
         <!-- <a href="http://jameswmoody.com/travel/la"> -->
         <h2 class="city-name">Los Angeles</h2>
-        <img class="travel-thumbnail" src="../images/travel-imgs/thumb/la-main.jpg" alt="Los Angeles">
+        <img class="travel-thumbnail" data-src="../images/travel/thumb/la-main.jpg" alt="Los Angeles">
         <!-- </a> -->
       </div>
       <div class="col-md-6 travel-cell">
         <!-- <a href="http://jameswmoody.com/travel/mem"> -->
         <h2 class="city-name">Memphis</h2>
-        <img class="travel-thumbnail" src="../images/travel-imgs/thumb/mem-main.jpg" alt="Memphis">
+        <img class="travel-thumbnail" data-src="../images/travel/thumb/mem-main.jpg" alt="Memphis">
         <!-- </a> -->
       </div>
     </div>
@@ -383,13 +168,13 @@
       <div class="col-md-6 travel-cell">
         <!-- <a href="http://jameswmoody.com/travel/atl"> -->
         <h2 class="city-name">Atlanta</h2>
-        <img class="travel-thumbnail" src="../images/travel-imgs/thumb/atl-main.jpg" alt="Atlanta">
+        <img class="travel-thumbnail" data-src="../images/travel/thumb/atl-main.jpg" alt="Atlanta">
         <!-- </a> -->
       </div>
       <div class="col-md-6 travel-cell">
         <!-- <a href="http://jameswmoody.com/travel/stl"> -->
         <h2 class="city-name">St. Louis</h2>
-        <img class="travel-thumbnail" src="../images/travel-imgs/thumb/stl-main.jpg" alt="St. Louis">
+        <img class="travel-thumbnail" data-src="../images/travel/thumb/stl-main.jpg" alt="St. Louis">
         <!-- </a> -->
       </div>
     </div>
@@ -398,13 +183,13 @@
       <div class="col-md-6 travel-cell">
         <!-- <a href="http://jameswmoody.com/travel/gary"> -->
         <h2 class="city-name">Gary</h2>
-        <img class="travel-thumbnail" src="../images/travel-imgs/thumb/gary-main.jpg" alt="Gary">
+        <img class="travel-thumbnail" data-src="../images/travel/thumb/gary-main.jpg" alt="Gary">
         <!-- </a> -->
       </div>
       <div class="col-md-6 travel-cell">
         <!-- <a href="http://jameswmoody.com/travel/indy"> -->
         <h2 class="city-name">Indianapolis</h2>
-        <img class="travel-thumbnail" src="../images/travel-imgs/thumb/indy-main.jpg" alt="Indianapolis">
+        <img class="travel-thumbnail" data-src="../images/travel/thumb/indy-main.jpg" alt="Indianapolis">
         <!-- </a> -->
       </div>
     </div>
@@ -413,13 +198,13 @@
       <div class="col-md-6 travel-cell">
         <!-- <a href="http://jameswmoody.com/travel/lou"> -->
         <h2 class="city-name">Louisville</h2>
-        <img class="travel-thumbnail" src="../images/travel-imgs/thumb/lou-main.jpg" alt="Louisville">
+        <img class="travel-thumbnail" data-src="../images/travel/thumb/lou-main.jpg" alt="Louisville">
         <!-- </a> -->
       </div>
       <div class="col-md-6 travel-cell">
         <!-- <a href="http://jameswmoody.com/travel/mil"> -->
         <h2 class="city-name">Milwaukee</h2>
-        <img class="travel-thumbnail" src="../images/travel-imgs/thumb/mil-main.jpg" alt="Milwaukee">
+        <img class="travel-thumbnail" data-src="../images/travel/thumb/mil-main.jpg" alt="Milwaukee">
         <!-- </a> -->
       </div>
     </div>
@@ -428,13 +213,13 @@
       <div class="col-md-6 travel-cell">
         <!-- <a href="http://jameswmoody.com/travel/sd"> -->
         <h2 class="city-name">San Diego</h2>
-        <img class="travel-thumbnail" src="../images/travel-imgs/thumb/sd-main.jpg" alt="San Diego">
+        <img class="travel-thumbnail" data-src="../images/travel/thumb/sd-main.jpg" alt="San Diego">
         <!-- </a> -->
       </div>
       <div class="col-md-6 travel-cell">
         <!-- <a href="http://jameswmoody.com/travel/phx"> -->
         <h2 class="city-name">Phoenix</h2>
-        <img class="travel-thumbnail" src="../images/travel-imgs/thumb/phx-main.jpg" alt="Phoenix">
+        <img class="travel-thumbnail" data-src="../images/travel/thumb/phx-main.jpg" alt="Phoenix">
         <!-- </a> -->
       </div>
     </div>
@@ -443,13 +228,13 @@
       <div class="col-md-6 travel-cell">
         <!-- <a href="http://jameswmoody.com/travel/minn"> -->
         <h2 class="city-name">Minneapolis</h2>
-        <img class="travel-thumbnail" src="../images/travel-imgs/thumb/minn-main.jpg" alt="Minneapolis">
+        <img class="travel-thumbnail" data-src="../images/travel/thumb/minn-main.jpg" alt="Minneapolis">
         <!-- </a> -->
       </div>
       <div class="col-md-6 travel-cell">
         <!-- <a href="http://jameswmoody.com/travel/phi"> -->
         <h2 class="city-name">Philadelphia</h2>
-        <img class="travel-thumbnail" src="../images/travel-imgs/thumb/phi-main.jpg" alt="Philadelphia">
+        <img class="travel-thumbnail" data-src="../images/travel/thumb/phi-main.jpg" alt="Philadelphia">
         <!-- </a> -->
       </div>
     </div>
@@ -458,13 +243,13 @@
       <div class="col-md-6 travel-cell">
         <!-- <a href="http://jameswmoody.com/travel/dal"> -->
         <h2 class="city-name">Dallas</h2>
-        <img class="travel-thumbnail" src="../images/travel-imgs/thumb/dal-main.jpg" alt="Dallas">
+        <img class="travel-thumbnail" data-src="../images/travel/thumb/dal-main.jpg" alt="Dallas">
         <!-- </a> -->
       </div>
       <div class="col-md-6 travel-cell">
         <!-- <a href="http://jameswmoody.com/travel/fw"> -->
         <h2 class="city-name">Fort Worth</h2>
-        <img class="travel-thumbnail" src="../images/travel-imgs/thumb/fw-main.jpg" alt="Fort Worth">
+        <img class="travel-thumbnail" data-src="../images/travel/thumb/fw-main.jpg" alt="Fort Worth">
         <!-- </a> -->
       </div>
     </div>
@@ -473,13 +258,13 @@
       <div class="col-md-6 travel-cell">
         <!-- <a href="http://jameswmoody.com/travel/atx"> -->
         <h2 class="city-name">Austin</h2>
-        <img class="travel-thumbnail" src="../images/travel-imgs/thumb/atx-main.jpg" alt="Austin">
+        <img class="travel-thumbnail" data-src="../images/travel/thumb/atx-main.jpg" alt="Austin">
         <!-- </a> -->
       </div>
       <div class="col-md-6 travel-cell">
         <!-- <a href="http://jameswmoody.com/travel/sa"> -->
         <h2 class="city-name">San Antonio</h2>
-        <img class="travel-thumbnail" src="../images/travel-imgs/thumb/sa-main.jpg" alt="San Antonio">
+        <img class="travel-thumbnail" data-src="../images/travel/thumb/sa-main.jpg" alt="San Antonio">
         <!-- </a> -->
       </div>
     </div>
@@ -488,13 +273,13 @@
       <div class="col-md-6 travel-cell">
         <!-- <a href="http://jameswmoody.com/travel/hou"> -->
         <h2 class="city-name">Houston</h2>
-        <img class="travel-thumbnail" src="../images/travel-imgs/thumb/hou-main.jpg" alt="Houston">
+        <img class="travel-thumbnail" data-src="../images/travel/thumb/hou-main.jpg" alt="Houston">
         <!-- </a> -->
       </div>
       <div class="col-md-6 travel-cell">
         <!-- <a href="http://jameswmoody.com/travel/sj"> -->
         <h2 class="city-name">Silicon Valley</h2>
-        <img class="travel-thumbnail" src="../images/travel-imgs/thumb/sj-main.jpg" alt="Silicon Valley">
+        <img class="travel-thumbnail" data-src="../images/travel/thumb/sj-main.jpg" alt="Silicon Valley">
         <!-- </a> -->
       </div>
     </div>
@@ -503,13 +288,13 @@
       <div class="col-md-6 travel-cell">
         <!-- <a href="http://jameswmoody.com/travel/kc"> -->
         <h2 class="city-name">Kansas City</h2>
-        <img class="travel-thumbnail" src="../images/travel-imgs/thumb/kc-main.jpg" alt="Kansas City">
+        <img class="travel-thumbnail" data-src="../images/travel/thumb/kc-main.jpg" alt="Kansas City">
         <!-- </a> -->
       </div>
       <div class="col-md-6 travel-cell">
         <!-- <a href="http://jameswmoody.com/travel/desmoines"> -->
         <h2 class="city-name">Des Moines</h2>
-        <img class="travel-thumbnail" src="../images/travel-imgs/thumb/desmoines-main.jpg" alt="Des Moines">
+        <img class="travel-thumbnail" data-src="../images/travel/thumb/desmoines-main.jpg" alt="Des Moines">
         <!-- </a> -->
       </div>
     </div>
@@ -518,13 +303,13 @@
       <div class="col-md-6 travel-cell">
         <!-- <a href="http://jameswmoody.com/travel/cle"> -->
         <h2 class="city-name">Cleveland</h2>
-        <img class="travel-thumbnail" src="../images/travel-imgs/thumb/cle-main.jpg" alt="Cleveland">
+        <img class="travel-thumbnail" data-src="../images/travel/thumb/cle-main.jpg" alt="Cleveland">
         <!-- </a> -->
       </div>
       <div class="col-md-6 travel-cell">
         <!-- <a href="http://jameswmoody.com/travel/mv"> -->
         <h2 class="city-name">Mounument Valley</h2>
-        <img class="travel-thumbnail" src="../images/travel-imgs/thumb/mv-main.jpg" alt="Mounument Valley">
+        <img class="travel-thumbnail" data-src="../images/travel/thumb/mv-main.jpg" alt="Mounument Valley">
         <!-- </a> -->
       </div>
     </div>
@@ -533,13 +318,13 @@
       <div class="col-md-6 travel-cell">
         <!-- <a href="http://jameswmoody.com/travel/nash"> -->
         <h2 class="city-name">Nashville</h2>
-        <img class="travel-thumbnail" src="../images/travel-imgs/thumb/nash-main.jpg" alt="Nashville">
+        <img class="travel-thumbnail" data-src="../images/travel/thumb/nash-main.jpg" alt="Nashville">
         <!-- </a> -->
       </div>
       <div class="col-md-6 travel-cell">
         <!-- <a href="http://jameswmoody.com/travel/oak"> -->
         <h2 class="city-name">Oakland</h2>
-        <img class="travel-thumbnail" src="../images/travel-imgs/thumb/oak-main.jpg" alt="Oakland">
+        <img class="travel-thumbnail" data-src="../images/travel/thumb/oak-main.jpg" alt="Oakland">
         <!-- </a> -->
       </div>
     </div>
@@ -548,13 +333,13 @@
       <div class="col-md-6 travel-cell">
         <!-- <a href="http://jameswmoody.com/travel/port"> -->
         <h2 class="city-name">Portland</h2>
-        <img class="travel-thumbnail" src="../images/travel-imgs/thumb/port-main.jpg" alt="Portland">
+        <img class="travel-thumbnail" data-src="../images/travel/thumb/port-main.jpg" alt="Portland">
         <!-- </a> -->
       </div>
       <div class="col-md-6 travel-cell">
         <!-- <a href="http://jameswmoody.com/travel/sea"> -->
         <h2 class="city-name">Seattle</h2>
-        <img class="travel-thumbnail" src="../images/travel-imgs/thumb/sea-main.jpg" alt="Seattle">
+        <img class="travel-thumbnail" data-src="../images/travel/thumb/sea-main.jpg" alt="Seattle">
         <!-- </a> -->
       </div>
     </div>
@@ -563,13 +348,13 @@
       <div class="col-md-6 travel-cell">
         <!-- <a href="http://jameswmoody.com/travel/port"> -->
         <h2 class="city-name">Omaha</h2>
-        <img class="travel-thumbnail" src="../images/travel-imgs/thumb/omaha-main.jpg" alt="Omaha">
+        <img class="travel-thumbnail" data-src="../images/travel/thumb/omaha-main.jpg" alt="Omaha">
         <!-- </a> -->
       </div>
       <div class="col-md-6 travel-cell">
         <!-- <a href="http://jameswmoody.com/travel/bos"> -->
         <h2 class="city-name">Boston</h2>
-        <img class="travel-thumbnail" src="../images/travel-imgs/thumb/bos-main.jpg" alt="Boston">
+        <img class="travel-thumbnail" data-src="../images/travel/thumb/bos-main.jpg" alt="Boston">
         <!-- </a> -->
       </div>
     </div>
@@ -578,13 +363,13 @@
       <div class="col-md-6 travel-cell">
         <!-- <a href="http://jameswmoody.com/travel/prov"> -->
         <h2 class="city-name">Providence</h2>
-        <img class="travel-thumbnail" src="../images/travel-imgs/thumb/prov-main.jpg" alt="Providence">
+        <img class="travel-thumbnail" data-src="../images/travel/thumb/prov-main.jpg" alt="Providence">
         <!-- </a> -->
       </div>
       <div class="col-md-6 travel-cell">
         <!-- <a href="http://jameswmoody.com/travel/nola"> -->
         <h2 class="city-name">New Orleans</h2>
-        <img class="travel-thumbnail" src="../images/travel-imgs/thumb/nola-main.jpg" alt="New Orleans">
+        <img class="travel-thumbnail" data-src="../images/travel/thumb/nola-main.jpg" alt="New Orleans">
         <!-- </a> -->
       </div>
     </div>
@@ -603,7 +388,7 @@
       <div class="col-md-12 travel-cell">
         <!-- <a href="http://jameswmoody.com/travel/kor"> -->
         <h2 class="country-name">Korea</h2>
-        <img class="intl-travel-thumbnail" src="../images/travel-imgs/thumb/kor-main.jpg" alt="Korea">
+        <img class="intl-travel-thumbnail" data-src="../images/travel/thumb/kor-main.jpg" alt="Korea">
         <!-- </a> -->
       </div>
     </div>
@@ -611,7 +396,7 @@
       <div class="col-md-12 travel-cell">
         <!-- <a href="http://jameswmoody.com/travel/jpn"> -->
         <h2 class="country-name">Japan</h2>
-        <img class="intl-travel-thumbnail" src="../images/travel-imgs/thumb/jpn-main.jpg" alt="Japan">
+        <img class="intl-travel-thumbnail" data-src="../images/travel/thumb/jpn-main.jpg" alt="Japan">
         <!-- </a> -->
       </div>
     </div>
@@ -619,7 +404,7 @@
       <div class="col-md-12 travel-cell">
         <!-- <a href="http://jameswmoody.com/travel/mex"> -->
         <h2 class="country-name">Mexico</h2>
-        <img class="intl-travel-thumbnail" src="../images/travel-imgs/thumb/mex-main.jpg" alt="Mexico">
+        <img class="intl-travel-thumbnail" data-src="../images/travel/thumb/mex-main.jpg" alt="Mexico">
         <!-- </a> -->
       </div>
     </div>
@@ -627,7 +412,7 @@
       <div class="col-md-12 travel-cell">
         <!-- <a href="http://jameswmoody.com/travel/can"> -->
         <h2 class="country-name">Canada</h2>
-        <img class="intl-travel-thumbnail" src="../images/travel-imgs/thumb/can-main.jpg" alt="Canada">
+        <img class="intl-travel-thumbnail" data-src="../images/travel/thumb/can-main.jpg" alt="Canada">
         <!-- </a> -->
       </div>
     </div>
@@ -635,7 +420,7 @@
       <div class="col-md-12 travel-cell">
         <!-- <a href="http://jameswmoody.com/travel/bel"> -->
         <h2 class="country-name">Belgium</h2>
-        <img class="intl-travel-thumbnail" src="../images/travel-imgs/thumb/bel-main.jpg" alt="Belgium">
+        <img class="intl-travel-thumbnail" data-src="../images/travel/thumb/bel-main.jpg" alt="Belgium">
         <!-- </a> -->
       </div>
     </div>
@@ -643,7 +428,7 @@
       <div class="col-md-12 travel-cell">
         <!-- <a href="http://jameswmoody.com/travel/grc"> -->
         <h2 class="country-name">Greece</h2>
-        <img class="intl-travel-thumbnail" src="../images/travel-imgs/thumb/grc-main.jpg" alt="Greece">
+        <img class="intl-travel-thumbnail" data-src="../images/travel/thumb/grc-main.jpg" alt="Greece">
         <!-- </a> -->
       </div>
     </div>
@@ -651,7 +436,7 @@
       <div class="col-md-12 travel-cell">
         <!-- <a href="http://jameswmoody.com/travel/gbr"> -->
         <h2 class="country-name">England</h2>
-        <img class="intl-travel-thumbnail" src="../images/travel-imgs/thumb/gbr-main1.jpg" alt="England">
+        <img class="intl-travel-thumbnail" data-src="../images/travel/thumb/gbr-main1.jpg" alt="England">
         <!-- </a> -->
       </div>
     </div>
@@ -659,7 +444,7 @@
       <div class="col-md-12 travel-cell">
         <!-- <a href="http://jameswmoody.com/travel/fra"> -->
         <h2 class="country-name">France</h2>
-        <img class="intl-travel-thumbnail" src="../images/travel-imgs/thumb/fra-main.jpg" alt="France">
+        <img class="intl-travel-thumbnail" data-src="../images/travel/thumb/fra-main.jpg" alt="France">
         <!-- </a> -->
       </div>
     </div>
@@ -667,7 +452,7 @@
       <div class="col-md-12 travel-cell">
         <!-- <a href="http://jameswmoody.com/travel/nld"> -->
         <h2 class="country-name">The Netherlands</h2>
-        <img class="intl-travel-thumbnail" src="../images/travel-imgs/thumb/nld-main.jpg" alt="The Netherlands">
+        <img class="intl-travel-thumbnail" data-src="../images/travel/thumb/nld-main.jpg" alt="The Netherlands">
         <!-- </a> -->
       </div>
     </div>
@@ -679,10 +464,22 @@
       <h3 class="footer-tag">JamesWMoody.com</h3>
       <ul class="list-inline">
         <li>
-          <a href="https://www.facebook.com/jameswmoodydev"><i class="fa fa-2x fa-facebook-square"></i></a>
-          <a href="http://instagram.com/jameswmoody"><i class="fa fa-2x fa-instagram"></i></a>
-          <a href="https://www.linkedin.com/in/moodyjames"><i class="fa fa-2x fa-linkedin-square"></i></a>
-          <a href="https://github.com/jameswmoody"><i class="fa fa-2x fa-github-square"></i></a>
+          <a href="https://www.facebook.com/jameswmoodydev">
+            <span class="sr-only">Facebook</span>
+            <i class="fa fa-2x fa-facebook-square"></i>
+          </a>
+          <a href="http://instagram.com/jameswmoody">
+            <span class="sr-only">Instagram</span>
+            <i class="fa fa-2x fa-instagram"></i>
+          </a>
+          <a href="https://www.linkedin.com/in/moodyjames">
+            <span class="sr-only">LinkedIn</span>
+            <i class="fa fa-2x fa-linkedin-square"></i>
+          </a>
+          <a href="https://github.com/jameswmoody" alt="GitHub">
+            <span class="sr-only">GitHub</span>
+            <i class="fa fa-2x fa-github-square"></i>
+          </a>
         </li>
       </ul>
       <p class="copyright text-muted">All content, images, videos, and intellectual property are creations of my own unless otherwise stated. Credit to other contributors will be given whenever possible. If you have concerns over the right to use any non-orignal content featured on
@@ -698,6 +495,225 @@
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha256-k2WSCIexGzOj3Euiig+TlR8gA0EmPjuc79OEeY5L45g=" crossorigin="anonymous"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
   <script src="../javascript/script.min.js"></script>
+
+  <!-- Google Maps -->
+  <script>
+    function initMap() {
+
+      /* US Cites */
+      var det = {
+        lat: 42.331429,
+        lng: -83.045753
+      };
+      var chi = {
+        lat: 41.881832,
+        lng: -87.623177
+      };
+      var nyc = {
+        lat: 40.730610,
+        lng: -73.935242
+      };
+      var dc = {
+        lat: 38.889931,
+        lng: -77.009003
+      };
+      var mil = {
+        lat: 43.038902,
+        lng: -87.906471
+      };
+      var lv = {
+        lat: 36.114647,
+        lng: -115.172813
+      };
+      var la = {
+        lat: 34.052235,
+        lng: -118.243683
+      };
+      var sf = {
+        lat: 37.773972,
+        lng: -122.431297
+      };
+      var cle = {
+        lat: 41.505493,
+        lng: -81.681290
+      };
+      var mem = {
+        lat: 35.040031,
+        lng: -89.981873
+      };
+      var atl = {
+        lat: 33.753746,
+        lng: -84.386330
+      };
+      var stl = {
+        lat: 38.627003,
+        lng: -90.199402
+      };
+      var indy = {
+        lat: 39.771854,
+        lng: -86.157013
+      };
+      var lou = {
+        lat: 38.328732,
+        lng: -85.764771
+      };
+      var sd = {
+        lat: 32.715736,
+        lng: -117.161087
+      };
+      var phx = {
+        lat: 33.448376,
+        lng: -112.074036
+      };
+      var min = {
+        lat: 44.986656,
+        lng: -93.258133
+      };
+      var phi = {
+        lat: 39.952583,
+        lng: -75.165222
+      };
+      var dal = {
+        lat: 32.7766642,
+        lng: -96.7969879
+      };
+      var fwt = {
+        lat: 32.768799,
+        lng: -97.309341
+      };
+      var atx = {
+        lat: 30.307182,
+        lng: -97.755996
+      };
+      var sa = {
+        lat: 29.424349,
+        lng: -98.491142
+      };
+      var hou = {
+        lat: 29.780472,
+        lng: -95.386342
+      };
+      var sj = {
+        lat: 37.296867,
+        lng: -121.819306
+      };
+      var kc = {
+        lat: 39.125212,
+        lng: -94.551136
+      };
+      var des = {
+        lat: 41.619549,
+        lng: -93.598022
+      };
+      var mv = {
+        lat: 37.030856,
+        lng: -110.251207
+      };
+      var moab = {
+        lat: 38.573315,
+        lng: -109.549843
+      };
+      var flag = {
+        lat: 35.198284,
+        lng: -111.651299
+      };
+      var four = {
+        lat: 36.9989796,
+        lng: -109.0452363
+      };
+      var nash = {
+        lat: 36.174465,
+        lng: -86.767960
+      };
+      var oak = {
+        lat: 37.801239,
+        lng: -122.258301
+      };
+      var port = {
+        lat: 45.523064,
+        lng: -122.676483
+      };
+      var sea = {
+        lat: 47.608013,
+        lng: -122.335167
+      };
+      var omaha = {
+        lat: 41.257160,
+        lng: -95.995102
+      };
+      var bos = {
+        lat: 42.3601,
+        lng: -71.0589
+      };
+      var prov = {
+        lat: 41.8240,
+        lng: -71.4128
+      };
+      var nola = {
+        lat: 29.9511,
+        lng: -90.0715
+      };
+
+      /* Countries */
+      var can = {
+        lat: 49.246292,
+        lng: -123.116226
+      };
+      var mex = {
+        lat: 19.432608,
+        lng: -99.133209
+      };
+      var kor = {
+        lat: 37.532600,
+        lng: 127.024612
+      };
+      var jpn = {
+        lat: 35.652832,
+        lng: 139.839478
+      };
+      var bel = {
+        lat: 50.8503,
+        lng: 4.3517
+      };
+      var grc = {
+        lat: 37.9838,
+        lng: 23.7275
+      };
+      var gbr = {
+        lat: 51.5074,
+        lng: 0.1278
+      };
+      var fra = {
+        lat: 48.8566,
+        lng: 2.3522
+      };
+      var nld = {
+        lat: 52.3702,
+        lng: 4.8952
+      };
+
+      var map = new google.maps.Map(document.getElementById('map'), {
+        zoom: 2,
+        center: omaha,
+        scrollwheel: false
+      });
+
+      var cities = [det, chi, nyc, dc, mil, lv, la, sf, cle, mem, atl, stl, indy, lou, sd, phx, min, phi, dal, fwt, atx, sa, hou, sj, kc, des, mv, moab, flag, four, nash, oak, port, sea, omaha, bos, prov, nola, can, mex, kor, jpn, bel, grc,
+        gbr, fra, nld
+      ];
+
+      for (var i = cities.length; i >= 0; i--) {
+        var marker = new google.maps.Marker({
+          position: cities[i],
+          map: map
+        });
+      };
+    }
+  </script>
+  <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC-h6hPLL72Sq-e8cNgkF-eCbFkIQfbggA&callback=initMap">
+  </script>
+
+  <!-- Google Analytics -->
   <script>
     (function(i, s, o, g, r, a, m) {
       i['GoogleAnalyticsObject'] = r;
