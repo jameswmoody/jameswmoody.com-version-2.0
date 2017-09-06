@@ -2,18 +2,19 @@
 <html lang="en">
 
 <head>
+  <title>James W Moody | Full Stack Developer</title>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="description" content="James W Moody is a Full Stack Web Developer specializing in Ruby on Rails, JavaScript, and TDD. Expect to find cool side projects and travel pictures.">
   <!-- Mobile -->
   <meta name="apple-mobile-web-app-capable" content="yes" />
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5">
   <!-- Social Media -->
   <meta property="og:title" content="James W Moody | Full Stack Developer">
   <meta name="og:description" content="James W Moody is a Full Stack Web Developer specializing in Ruby on Rails, JavaScript, and TDD. Expect to find cool side projects and travel pictures.">
   <meta property="og:type" content="website">
   <meta property="og:url" content="http://jameswmoody.com">
-  <meta property="og:image" content="../images/jwm1.jpg">
+  <meta property="og:image" content="../images/jwm1.webp">
   <meta property="og:site_name" content="James W Moody">
   <meta name="twitter:site" content="@jwm___">
   <meta name="twitter:title" content="James W Moody">
@@ -21,10 +22,9 @@
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:image:alt" content="James W Moody">
   <!-- Stylesheets -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="preload" as="style" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous" onload="this.rel='stylesheet'">
+  <link rel="preload" as="style" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" onload="this.rel='stylesheet'">
   <link rel="stylesheet" href="../stylesheets/main.min.css">
-  <title>James W Moody | WebDev</title>
 </head>
 
 <body>
@@ -54,7 +54,7 @@
             <ul class="dropdown-menu">
               <li class="dropdown-header">SOCIAL</li>
               <li><a href="https://www.facebook.com/jameswmoodydev">Facebook</a></li>
-              <li><a href="http://instagram.com/jwm___">Instagram</a></li>
+              <li><a href="http://instagram.com/jameswmoody">Instagram</a></li>
               <li><a href="https://www.linkedin.com/in/moodyjames">LinkedIn</a></li>
               <li role="separator" class="divider"></li>
               <li class="dropdown-header">DEV STUFF</li>
@@ -79,7 +79,7 @@
       <div class="row">
         <div class="col-md-12">
           <h2 class="text-center">Portfolio</h2>
-          <p>I'll be posting recent stuff I've worked on here. Mostly these are web development projects I've built but every once in a while you might see something else here. Keep checking back!</p>
+          <p>I'll be posting recent stuff I've worked on here. Mostly these are web development projects I've built but every once in a while you might see something else here. Keep checking back for more!</p>
         </div>
       </div>
     </div>
@@ -89,18 +89,18 @@
     <div class="row">
       <div class="col-xs-12 col-sm-6 col-md-4 portfolio">
         <a class="thumbnail" href="https://tab-out.herokuapp.com/">
-          <img class="portfolio-img" src="http://jameswmoody.com/images/tabout-app.jpg" alt="TabOut">
+          <img class="portfolio-img" data-src="http://jameswmoody.com/images/webp/tabout-app.webp" alt="TabOut">
           <h2 class="project-header">
             <span class="text-content">TabOut</span>
           </h2>
           <p>
-            <span class="text-content project-description">A mobile-first, geolocation based bar tab web app built with Ruby on Rails, Braintree’s Ruby SDK and Twilio.</span>
+            <span class="text-content project-description">A mobile-first, geolocation based bar tab web app built with Ruby on Rails, Braintree’s Ruby SDK and Twilio. This app allows bar patrons to open and review their tab while providing the bar more robust analytics.</span>
           </p>
         </a>
       </div>
       <div class="col-xs-12 col-sm-6 col-md-4 portfolio">
         <a class="thumbnail" href="https://moviecrate.herokuapp.com/">
-          <img class="portfolio-img" src="http://jameswmoody.com/images/moviecrate.jpg" alt="MovieCrate">
+          <img class="portfolio-img" data-src="http://jameswmoody.com/images/webp/moviecrate.webp" alt="MovieCrate">
           <h2 class="project-header">
             <span class="text-content">MovieCrate</span>
           </h2>
@@ -111,12 +111,12 @@
       </div>
       <div class="col-xs-12 col-sm-6 col-md-4 portfolio">
         <a class="thumbnail" href="https://braintree-v3.herokuapp.com/">
-          <img class="portfolio-img" src="http://jameswmoody.com/images/braintree-php.jpg" alt="Braintree Integration">
+          <img class="portfolio-img" data-src="http://jameswmoody.com/images/webp/braintree-php.webp" alt="Braintree Integration">
           <h2 class="project-header">
             <span class="text-content">Braintree&nbsp;Integration</span>
           </h2>
           <p>
-            <span class="text-content project-description">An e-commerce integration using Braintree Payment's Drop-In UI. Braintree's PHP SDK is used for the backend.</span>
+            <span class="text-content project-description">An e-commerce integration using Braintree Payment's Drop-In UI. Braintree's PHP SDK is used to make API calls to Braintree's servers.</span>
           </p>
         </a>
       </div>
@@ -124,7 +124,7 @@
     <div class="row">
       <div class="col-xs-12 col-sm-6 col-md-4 portfolio">
         <a class="thumbnail" href="../projects/tabout">
-            <img class="portfolio-img" src="http://jameswmoody.com/images/tabout.jpg" alt="TabOut">
+            <img class="portfolio-img" data-src="http://jameswmoody.com/images/webp/tabout.webp" alt="TabOut">
             <h2 class="project-header">
               <span class="text-content">TabOut</span>
             </h2>
@@ -135,7 +135,7 @@
       </div>
       <div class="col-xs-12 col-sm-6 col-md-4 portfolio">
         <a class="thumbnail" href="/projects/ChristinaBYoung/">
-            <img class="portfolio-img" src="http://jameswmoody.com/images/cby.jpg" alt="ChristinaBYoung.com">
+            <img class="portfolio-img" data-src="http://jameswmoody.com/images/webp/cby.webp" alt="ChristinaBYoung.com">
             <h2 class="project-header">
               <span class="text-content">Resume Website</span>
             </h2>
@@ -146,7 +146,7 @@
       </div>
       <div class="col-xs-12 col-sm-6 col-md-4 portfolio">
         <a class="thumbnail" href="https://rails-messages-app.herokuapp.com/">
-            <img class="portfolio-img" src="http://jameswmoody.com/images/messages-app.jpg" alt="Messaging App">
+            <img class="portfolio-img" data-src="http://jameswmoody.com/images/webp/messages-app.webp" alt="Messaging App">
             <h2 class="project-header">
               <span class="text-content">Messaging App</span>
             </h2>
@@ -159,7 +159,7 @@
     <div class="row">
       <div class="col-xs-12 col-sm-6 col-md-4 portfolio">
         <a class="thumbnail" href="https://todolist-app-react.herokuapp.com/">
-            <img class="portfolio-img" src="http://jameswmoody.com/images/todolist.jpg" alt="To Do List">
+            <img class="portfolio-img" data-src="http://jameswmoody.com/images/webp/todolist.webp" alt="To Do List">
             <h2 class="project-header">
               <span class="text-content">To Do List</span>
             </h2>
@@ -170,7 +170,7 @@
       </div>
       <div class="col-xs-12 col-sm-6 col-md-4 portfolio">
         <a class="thumbnail" href="../projects/8ball">
-            <img class="portfolio-img" src="http://jameswmoody.com/images/8ball.jpg" alt="8-Ball">
+            <img class="portfolio-img" data-src="http://jameswmoody.com/images/webp/8ball.webp" alt="8-Ball">
             <h2 class="project-header">
               <span class="text-content">Magic 8 Ball</span>
             </h2>
@@ -181,7 +181,7 @@
       </div>
       <div class="col-xs-12 col-sm-6 col-md-4 portfolio">
         <a class="thumbnail" href="http://roseysmsfoundation.org">
-            <img class="portfolio-img" src="http://jameswmoody.com/images/roseys.jpg" alt="Rosey's MS Foundation">
+            <img class="portfolio-img" data-src="http://jameswmoody.com/images/webp/roseys.webp" alt="Rosey's MS Foundation">
             <h2 class="project-header">
               <span class="text-content">Rosey's MS Foundation</span>
             </h2>
@@ -199,10 +199,22 @@
       <h3 class="footer-tag">JamesWMoody.com</h3>
       <ul class="list-inline">
         <li>
-          <a href="https://www.facebook.com/jameswmoodydev"><i class="fa fa-2x fa-facebook-square"></i></a>
-          <a href="http://instagram.com/jameswmoody"><i class="fa fa-2x fa-instagram"></i></a>
-          <a href="https://www.linkedin.com/in/moodyjames"><i class="fa fa-2x fa-linkedin-square"></i></a>
-          <a href="https://github.com/jameswmoody"><i class="fa fa-2x fa-github-square"></i></a>
+          <a href="https://www.facebook.com/jameswmoodydev">
+            <span class="sr-only">Facebook</span>
+            <i class="fa fa-2x fa-facebook-square"></i>
+          </a>
+          <a href="http://instagram.com/jameswmoody">
+            <span class="sr-only">Instagram</span>
+            <i class="fa fa-2x fa-instagram"></i>
+          </a>
+          <a href="https://www.linkedin.com/in/moodyjames">
+            <span class="sr-only">LinkedIn</span>
+            <i class="fa fa-2x fa-linkedin-square"></i>
+          </a>
+          <a href="https://github.com/jameswmoody" alt="GitHub">
+            <span class="sr-only">GitHub</span>
+            <i class="fa fa-2x fa-github-square"></i>
+          </a>
         </li>
       </ul>
       <p class="copyright text-muted">All content, images, videos, and intellectual property are creations of my own unless otherwise stated. Credit to other contributors will be given whenever possible. If you have concerns over the right to use any non-orignal content featured on
