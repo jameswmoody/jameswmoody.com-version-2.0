@@ -25,25 +25,32 @@
   padding: 50px;
 }
 .logos {
-  width: 100px;
+  width: 130px;
+  margin: auto;
 }
 .braintree {
-  padding-top: 50px;
+  padding-top: 40px;
 }
 .cumulus {
-  padding-top: 25px;
+  padding-top: 10px;
+}
+.apple {
+  width: 100px;
 }
 .loop {
-  padding-top: 30px;
+  padding-top: 70px;
 }
 .espn {
-  padding-top: 70px;
+  padding-top: 90px;
 }
 .colum {
-  padding-top: 70px;
+  padding-top: 90px;
 }
 .wkqx {
   padding-top: 30px;
+}
+.catalytic {
+  padding-top: 20px;
 }
 
 /* Email Form */
@@ -56,4 +63,40 @@
   box-shadow: none;
   font-family: $Serif;
   font-size: 14px;
+}
+
+/* Mobile */
+@media only screen
+  and (min-device-width : 320px)
+  and (max-device-width : 374px)
+  and (orientation : portrait) {
+    .logos {
+      width: 80px;
+    }
+    .cumulus {
+      padding-top: 20px;
+    }
+    .espn {
+      padding-top: 70px;
+    }
+    .colum {
+      padding-top: 70px;
+    }
+    .catalytic {
+      padding-top: 30px;
+    }
+}
+@media only screen
+  and (min-device-width : 375px)
+  and (max-device-width : 414px)
+  and (orientation : portrait) {
+    .apple {
+      width: 80px;
+    }
+    .espn {
+      padding-top: 70px;
+    }
+    .colum {
+      padding-top: 70px;
+    }
 }
