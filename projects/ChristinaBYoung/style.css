@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Cinzel');
 @import url('https://fonts.googleapis.com/css?family=Lato');
-
 .row {
   margin: 0;
 }
+
 
 /* Fonts */
 
@@ -11,15 +11,18 @@ h1 {
   font-family: 'Cinzel', serif;
   font-size: 50px;
 }
+
 h3 {
   font-family: 'Cinzel', serif;
   margin-top: 60px;
   margin-bottom: 30px;
 }
+
 p {
   font-family: 'Lato', sans-serif;
   letter-spacing: 2px;
 }
+
 
 /* Navbar */
 
@@ -28,6 +31,7 @@ p {
   border: none;
   transition: 0.5s;
 }
+
 .navbar-default .navbar-nav>li>a {
   color: black;
   font-family: 'Lato', sans-serif;
@@ -35,14 +39,17 @@ p {
   letter-spacing: 2px;
   transition: color 0.4s;
 }
+
 .navbar-default .navbar-nav>li>a:visited {
   color: black;
 }
+
 .navbar-default .navbar-nav .open .dropdown-menu>li>a {
   font-family: 'Lato', sans-serif;
   letter-spacing: 2px;
   font-size: 10px;
 }
+
 .navbar-default .navbar-brand {
   /*margin-left: 25%;*/
   font-family: 'Cinzel', serif;
@@ -50,31 +57,35 @@ p {
   color: transparent;
   margin-top: 5px;
 }
-.navbar-default .navbar-nav>.open>a,
-.navbar-default .navbar-nav>.open>a:focus,
-.navbar-default .navbar-nav>.open>a:hover {
+
+.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover {
   background-color: rgba(255, 255, 255, 0.5);
 }
+
 .navbar-toggle {
   margin-top: 10px;
 }
+
 .nav-link-dropdown {
   margin-right: 15px;
 }
+
 .dropdown-menu {
   margin-right: 15px;
   min-width: 107px;
   border: none;
 }
 
+
 /* Header */
 
 .header-img {
-  float:right;
+  float: right;
   height: 100vh;
   background-size: cover;
   background-attachment: fixed;
 }
+
 .headline {
   position: absolute;
   top: 40vh;
@@ -82,6 +93,7 @@ p {
   text-align: center;
   margin-bottom: 0;
 }
+
 hr {
   display: block;
   height: 1px;
@@ -92,22 +104,26 @@ hr {
   padding: 0;
   align-content: center;
 }
+
 .sub-header {
   font-size: 18px;
   font-family: 'Lato', sans-serif;
   letter-spacing: 2px;
 }
+
 .divider {
   height: 1px;
   width: 100%;
   background: rgba(0, 0, 0, 0.5);
 }
 
+
 /* Sections */
 
 .sections {
   padding-bottom: 60px;
 }
+
 .description {
   font-family: "Helvetica Neue", "Helvetica", Arial, sans-serif;
   letter-spacing: normal;
@@ -118,6 +134,7 @@ hr {
   background: url("images/background.png") no-repeat fixed center;
   background-size: 100vw;
 }
+
 .cv-screenshot {
   width: 30%;
   margin-bottom: 20px;
@@ -126,10 +143,18 @@ hr {
   border-style: solid;
   border-radius: 5px;
 }
+
+
 /*#contact {
   background: url("images/background2.png") no-repeat fixed center;
   background-size: cover;
 }*/
+
+.inset {
+  background-color: #F2F2F2;
+  width: 100%;
+}
+
 
 /* Forms */
 
@@ -137,18 +162,19 @@ hr {
   height: 70vh;
   text-align: center;
 }
+
 label {
   font-family: 'Lato', sans-serif;
   letter-spacing: 2px;
   font-size: 12px;
 }
+
 .form-control {
   font-family: 'Lato', sans-serif;
   letter-spacing: 2px;
 }
-.btn-primary, .btn-primary:visited,
-.btn-primary:active, .btn-primary:focus,
-.btn-primary:target, .btn-primary:active:focus  {
+
+.btn-primary, .btn-primary:visited, .btn-primary:active, .btn-primary:focus, .btn-primary:target, .btn-primary:active:focus {
   font-family: 'Lato', sans-serif;
   letter-spacing: 2px;
   background-color: transparent;
@@ -156,6 +182,7 @@ label {
   color: #65B0ED;
   outline: none !important;
 }
+
 .btn-primary:hover {
   color: white;
   background-color: #65B0ED;
@@ -163,24 +190,27 @@ label {
   transition: 0.2s;
 }
 
+
 /* Footer */
 
 .footer {
   background-color: #171717;
   text-align: center;
 }
+
 .footer p {
   color: white;
   font-size: 11px;
   margin-bottom: 20px;
 }
 
+
 /* Mobile */
 
+
 /* Smartphone */
-@media only screen
-and (min-device-width : 320px)
-and (max-device-width : 736px) {
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 736px) {
   .navbar-default .navbar-nav .open .dropdown-menu>li>a {
     font-family: 'Lato', sans-serif;
     letter-spacing: 2px;
@@ -211,12 +241,10 @@ and (max-device-width : 736px) {
   }
 }
 
+
 /* Smartphone with Landscape Orientation */
 
-@media only screen
-and (min-device-width : 320px)
-and (max-device-width : 736px)
-and (orientation : landscape) {
+@media only screen and (min-device-width: 320px) and (max-device-width: 736px) and (orientation: landscape) {
   .headline {
     position: absolute;
     top: 35vh;
@@ -233,11 +261,10 @@ and (orientation : landscape) {
   }
 }
 
+
 /* Tablet */
 
-@media only screen
-and (min-device-width : 768px)
-and (max-device-width : 1024px)  {
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
   .headline {
     position: absolute;
     top: 70vh;
@@ -258,10 +285,7 @@ and (max-device-width : 1024px)  {
   }
 }
 
-@media only screen
-and (min-device-width : 1024px)
-and (max-device-width : 1366px)
-and (orientation : portrait) {
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (orientation: portrait) {
   .headline {
     position: absolute;
     top: 70vh;
@@ -269,25 +293,23 @@ and (orientation : portrait) {
   }
 }
 
+
 /* Tablet with Landscape Orientation */
 
-@media only screen
-and (min-device-width : 768px)
-and (max-device-width : 1024px)
-and (orientation : landscape) {
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
   .headline {
     position: absolute;
-    top:45vh;
+    top: 45vh;
     left: 30px;
     text-align: center;
     color: #777;
   }
 }
 
+
 /* Desktop Only */
 
-@media only screen
-and (min-device-width : 737px)  {
+@media only screen and (min-device-width: 737px) {
   .navbar-brand {
     display: none;
   }
