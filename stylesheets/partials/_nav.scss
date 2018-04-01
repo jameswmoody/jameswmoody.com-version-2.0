@@ -13,6 +13,7 @@
 .navbar-default .navbar-nav>li>a,
 .navbar-default .navbar-nav>li>a:hover {
   color: #fff;
+  text-shadow: $very-dark-grey 0 .5px .5px;
   letter-spacing: 1px;
 }
 .navbar-brand {
@@ -83,18 +84,17 @@ and (max-device-width : 767px) {
   }
   .navbar-default .navbar-nav>li>a,
   .navbar-default .navbar-nav>li>a:hover {
+    text-shadow: none !important;
     color: $very-dark-grey !important;
     text-align: center;
   }
-  .navbar-header {
-    // background-color: rgba(231,231,231, 0.5);
+  .navbar-nav .open .dropdown-menu .dropdown-header,
+  .navbar-nav .open .dropdown-menu>li>a {
+    text-align: center;
   }
   .navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
     background: none;
   }
-  // .navbar-default .navbar-toggle .icon-bar {
-  //   background-color: $white;
-  // }
   .nav-link {
     color: #6E6F73;
   }

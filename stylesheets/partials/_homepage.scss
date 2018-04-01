@@ -2,7 +2,7 @@
 
 /* Home Header */
 .header-img {
-  background: url("http://jameswmoody.com/images/jwm1.jpg") no-repeat center center;
+  background: url("http://jameswmoody.com/images/jwm1.2.jpg") no-repeat center center;
 }
 
 /* Recent */
@@ -50,7 +50,7 @@
   padding-top: 30px;
 }
 .catalytic {
-  padding-top: 20px;
+  padding-top: 35px;
 }
 
 /* Email Form */
@@ -92,11 +92,19 @@
   and (orientation : portrait) {
     .apple {
       width: 80px;
+      margin-left: 30px;
     }
     .espn {
       padding-top: 70px;
     }
     .colum {
       padding-top: 70px;
+    }
+    .cumulus {
+      padding-top: 20px;
+    }
+    .wkqx, .loop, .espn, .colum, .cumulus {
+      width: 100px;
+      // margin-left: 20px;
     }
 }

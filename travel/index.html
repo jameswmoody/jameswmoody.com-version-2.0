@@ -373,6 +373,21 @@
         <!-- </a> -->
       </div>
     </div>
+
+    <div class="row">
+      <div class="col-md-6 travel-cell">
+        <!-- <a href="http://jameswmoody.com/travel/okc"> -->
+        <h2 class="city-name">Oklahoma City</h2>
+        <img class="travel-thumbnail" data-src="../images/travel/thumb/okc-main.jpg" alt="Oklahoma City">
+        <!-- </a> -->
+      </div>
+      <div class="col-md-6 travel-cell">
+        <!-- <a href="http://jameswmoody.com/travel/bal"> -->
+        <h2 class="city-name">Baltimore</h2>
+        <img class="travel-thumbnail" data-src="../images/travel/thumb/bal-main.jpg" alt="Baltimore">
+        <!-- </a> -->
+      </div>
+    </div>
   </div>
 
   <div class="container-wide outset">
@@ -653,6 +668,14 @@
         lat: 29.9511,
         lng: -90.0715
       };
+      var okc = {
+        lat: 35.4676,
+        lng: -97.5164
+      };
+      var bal = {
+        lat: 39.2904,
+        lng: -76.6122
+      };
 
       /* Countries */
       var can = {
@@ -698,19 +721,19 @@
         scrollwheel: false
       });
 
-      var cities = [det, chi, nyc, dc, mil, lv, la, sf, cle, mem, atl, stl, indy, lou, sd, phx, min, phi, dal, fwt, atx, sa, hou, sj, kc, des, mv, moab, flag, four, nash, oak, port, sea, omaha, bos, prov, nola, can, mex, kor, jpn, bel, grc,
+      var cities = [det, chi, nyc, dc, mil, lv, la, sf, cle, mem, atl, stl, indy, lou, sd, phx, min, phi, dal, fwt, atx, sa, hou, sj, kc, des, mv, moab, flag, four, nash, oak, port, sea, omaha, bos, prov, nola, okc, bal, can, mex, kor, jpn, bel, grc,
         gbr, fra, nld
       ];
 
-      for (var i = cities.length; i >= 0; i--) {
+      cities.forEach(function (city) {
         var marker = new google.maps.Marker({
-          position: cities[i],
+          position: city,
           map: map
         });
-      };
+      });
     }
   </script>
-  <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC-h6hPLL72Sq-e8cNgkF-eCbFkIQfbggA&callback=initMap">
+  <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBqwd-h-mpB6wU2u2EhOKtKYHIQoSj_shU&callback=initMap">
   </script>
 
   <!-- Google Analytics -->
