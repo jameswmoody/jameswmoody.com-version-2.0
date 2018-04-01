@@ -4,14 +4,18 @@ $(document).ready(function() {
     if (window.scrollY >= 50) {
       $('.navbar-default').css('background-color', '#fff')
       $('.navbar-default').css('border-bottom', 'solid #E5E5E5 1px')
+      $('.navbar-default .navbar-nav>li>a').css('text-shadow', 'none')
       $('.navbar-brand').css('color', '#6E6F73')
+      $('.navbar-brand').css('text-shadow', 'none')
       $('.icon-bar').removeClass('white-nav-button')
       $('.icon-bar').addClass('dark-nav-button')
       $('.nav-link').css('color', '#6E6F73')
     } else {
       $('.navbar-default').css('background-color', 'transparent')
       $('.navbar-default').css('border-bottom', 'solid rgba(0, 0, 0, 0.0) 1px')
+      $('.navbar-default .navbar-nav>li>a').css('text-shadow', '#1A1A1A 0 .5px .5px')
       $('.navbar-brand').css('color', '#fff')
+      $('.navbar-brand').css('text-shadow', '#1A1A1A 0 .5px .5px')
       $('.icon-bar').removeClass('dark-nav-button')
       $('.icon-bar').addClass('white-nav-button')
       $('.nav-link').css('color', '#fff')
