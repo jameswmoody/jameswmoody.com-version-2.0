@@ -80,6 +80,7 @@ and (max-device-width : 767px) {
   }
   .navbar-default .navbar-brand,
   .navbar-default .navbar-brand:hover{
+    text-shadow: $very-dark-grey 0 .5px .5px;
     color: $white;
   }
   .navbar-default .navbar-nav>li>a,
